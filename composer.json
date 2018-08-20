@@ -1,0 +1,12 @@
+{
+  "name": "php-module/phpcs",
+  "description": "ISAAC PHP Code Sniffer",
+  "type": "library",
+  "license": "proprietary",
+  "require": {
+    "squizlabs/php_codesniffer": "^3.3",
+    "slevomat/coding-standard": "^4.6"
+  },
+  "require-dev": {
+  }
+}

@@ -8,13 +8,13 @@ Extending the default [PHP_CodeSniffer](https://github.com/squizlabs/PHP_CodeSni
 First, add the path of this repo to the composer file in your project:
 
 ```
-composer config phpcs vcs git@gitlab.isaac.local:php-module/phpcs.git
+composer config repositores.isaac-php-code-sniffer vcs git@gitlab.isaac.local:php-module/isaac-php-code-sniffer.git
 ```
 
 Now require the package:
 
 ```
-composer require-dev "php-module/phpcs:^1.0"
+composer require --dev "php-module/isaac-php-code-sniffer:^1.0"
 ```
 
 ### Setup
@@ -35,3 +35,7 @@ Create a `phpcs.xml`-file in the root of your project, which extends the default
 ```
 
 Modify the excluded paths and/or include custom rulesets for your project.
+
+### Usage
+
+Since you now have a `phpcs.xml` file in the root of your project, you can run the default phpcs-command: `php ./vendor/bin/phpcs`.

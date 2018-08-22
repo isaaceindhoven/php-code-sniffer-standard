@@ -3,6 +3,8 @@ ISAAC PHPCS
 
 Extending the default [PHP_CodeSniffer](https://github.com/squizlabs/PHP_CodeSniffer) with ISAAC rules
 
+**Note**: Adding new phpcs-rules to this package must result in a major version update!
+
 ### Installation
 
 First, add the path of this repo to the composer file in your project:

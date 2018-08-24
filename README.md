@@ -40,4 +40,4 @@ Modify the excluded paths and/or include custom rulesets for your project.
 
 ### Usage
 
-Since you now have a `phpcs.xml` file in the root of your project, you can run the default phpcs-command: `php ./vendor/bin/phpcs`.
+Since you now have a `phpcs.xml` file in the root of your project, you can run the default phpcs-command: `vendor/bin/phpcs`.

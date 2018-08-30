@@ -1,5 +1,5 @@
 {
-  "name": "php-module/isaac-php-code-sniffer",
+  "name": "isaac/php-code-sniffer",
   "description": "ISAAC PHP Code Sniffer",
   "type": "library",
   "license": "proprietary",

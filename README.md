@@ -16,7 +16,7 @@ composer config repositories.isaac-php-code-sniffer vcs git@gitlab.isaac.local:p
 Now require the package:
 
 ```
-composer require --dev "php-module/isaac-php-code-sniffer:^1.0"
+composer require --dev "isaac/php-code-sniffer:^1.0"
 ```
 
 ### Setup

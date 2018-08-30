@@ -32,7 +32,7 @@ Create a `phpcs.xml`-file in the root of your project, which extends the default
     <exclude-pattern>./vendor</exclude-pattern>
 
     <!-- extend isaac ruleset -->
-    <rule ref="vendor/php-module/isaac-php-code-sniffer/phpcs.xml"/>
+    <rule ref="vendor/isaac/php-code-sniffer/phpcs.xml"/>
 </ruleset>
 ```
 

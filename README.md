@@ -36,7 +36,7 @@ Create a `phpcs.xml`-file in the root of your project, which extends the default
 </ruleset>
 ```
 
-Modify the excluded paths and/or include custom rulesets for your project.
+Change the name of the ruleset, modify the excluded paths and/or include custom rulesets for your project.
 
 ### Usage
 

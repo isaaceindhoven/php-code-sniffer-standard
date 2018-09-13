@@ -5,7 +5,8 @@
   "license": "proprietary",
   "require": {
     "dealerdirect/phpcodesniffer-composer-installer": "^0.4",
-    "slevomat/coding-standard": "^4.6"
+    "slevomat/coding-standard": "^4.6",
+    "object-calisthenics/phpcs-calisthenics-rules": "^3.3"
   },
   "require-dev": {
   }

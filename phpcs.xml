@@ -43,10 +43,4 @@
     <rule ref="SlevomatCodingStandard.TypeHints.TypeHintDeclaration.MissingParameterTypeHint"/>
     <rule ref="SlevomatCodingStandard.TypeHints.TypeHintDeclaration.MissingPropertyTypeHint"/>
     <rule ref="SlevomatCodingStandard.TypeHints.TypeHintDeclaration.MissingReturnTypeHint"/>
-    <rule ref="ObjectCalisthenics"/>
-    <rule ref="ObjectCalisthenics.Files.FunctionLength">
-        <properties>
-            <property name="maxLength" value="25"/>
-        </properties>
-    </rule>
 </ruleset>

@@ -4,6 +4,7 @@
     <!-- PSR2 standard -->
     <rule ref="PSR2"/>
     <!-- Extra rules -->
+    <rule ref="Generic.Arrays.ArrayIndent"/>
     <rule ref="Generic.PHP.DeprecatedFunctions"/>
     <rule ref="Generic.PHP.ForbiddenFunctions"/>
     <rule ref="Generic.Classes.DuplicateClassName"/>

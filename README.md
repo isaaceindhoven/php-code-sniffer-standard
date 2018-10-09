@@ -41,3 +41,8 @@ Change the name of the ruleset, modify the excluded paths and/or include custom 
 ### Usage
 
 Since you now have a `phpcs.xml` file in the root of your project, you can run the default phpcs-command: `vendor/bin/phpcs`.
+
+### Contributing
+
+If you want to to contribute, create a merge request with **one sniff per merge request**. Please provide
+an example in the description of what the sniff is about with a good and bad code snippet.

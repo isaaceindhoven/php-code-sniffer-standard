@@ -1,3 +1,11 @@
+## [3.0.0] - 2018-10-09
+### Added
+- Sniff to disallow loose equal operator (`===` over `==`)
+- Sniff to disallow yoda comparison (`if (true === something()))`)
+- Sniff to enforce typecasting with short notations (`(int)` over`(integer)`, `(bool)` over `(boolean)`, etc.)
+- Sniff to enforce strict type declaration
+- Sniff to enforce nicely indented arrays
+
 ## [2.0.0] - 2018-09-10
 ### Added
 - [PHP_CodeSniffer Standards Composer Installer Plugin](https://github.com/DealerDirect/phpcodesniffer-composer-installer):

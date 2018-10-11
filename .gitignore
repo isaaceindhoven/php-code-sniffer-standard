@@ -1,6 +1,7 @@
 ### composer
 composer.phar
 /vendor/
+composer.lock
 
 ### general
 .idea/

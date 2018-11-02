@@ -53,4 +53,5 @@
     <rule ref="SlevomatCodingStandard.ControlStructures.DisallowYodaComparison"/>
     <rule ref="SlevomatCodingStandard.ControlStructures.RequireShortTernaryOperator"/>
     <rule ref="SlevomatCodingStandard.PHP.TypeCast"/>
+    <rule ref="Squiz.Strings.DoubleQuoteUsage.ContainsVar"/>
 </ruleset>

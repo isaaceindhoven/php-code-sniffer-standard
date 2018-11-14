@@ -1,12 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<ruleset name="phpcs-isaac">
+<ruleset name="ISAAC">
     <description>PHP_CodeSniffer ruleset for development at ISAAC</description>
     <!-- PSR2 standard -->
     <rule ref="PSR2"/>
     <!-- Extra rules -->
     <rule ref="Generic.Arrays.ArrayIndent"/>
-    <rule ref="Generic.PHP.DeprecatedFunctions"/>
-    <rule ref="Generic.PHP.ForbiddenFunctions"/>
+    <rule ref="Generic.PHP.ForbiddenFunctions">
+        <properties>
+            <property name="forbiddenFunctions" type="array" value="
+            empty=>null,
+            isset=>null"
+            />
+        </properties>
+    </rule>
     <rule ref="Generic.Classes.DuplicateClassName"/>
     <rule ref="MySource.PHP.GetRequestData"/>
     <!-- Commenting -->

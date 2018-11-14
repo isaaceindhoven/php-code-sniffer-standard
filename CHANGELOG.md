@@ -1,3 +1,10 @@
+## [4.0.0] - 2018-11-14
+### Added
+- Sniff to disallow empty()
+- Sniff to disallow isset()
+- Sniff to disallow null coalesce operator
+- Created the ISAAC ruleset to be included, instead of extending the phpcs.xml file
+
 ## [3.0.0] - 2018-10-09
 ### Added
 - Sniff to disallow loose equal operator (`===` over `==`)

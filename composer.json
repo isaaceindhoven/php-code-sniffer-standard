@@ -1,12 +1,27 @@
 {
   "name": "isaac/php-code-sniffer",
   "description": "ISAAC PHP Code Sniffer",
-  "type": "library",
+  "type": "phpcodesniffer-standard",
   "license": "proprietary",
   "require": {
+    "php": "^7.1",
     "dealerdirect/phpcodesniffer-composer-installer": "^0.4",
     "slevomat/coding-standard": "^4.6"
   },
   "require-dev": {
+    "phpunit/phpunit": "~7.0"
+  },
+  "autoload": {
+    "psr-4": {
+      "IsaacCodingStandard\\": "src/"
+    }
+  },
+  "autoload-dev": {
+    "psr-4": {
+      "IsaacCodingStandard\\Tests\\": "tests"
+    },
+    "classmap": [
+      "vendor/squizlabs/php_codesniffer"
+    ]
   }
 }

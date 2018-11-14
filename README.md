@@ -20,7 +20,7 @@ composer require --dev "isaac/php-code-sniffer:^2.0"
 ```
 
 ### Setup
-Create a `phpcs.xml`-file in the root of your project, which extends the default ISAAC ruleset:
+Create a `phpcs.xml`-file in the root of your project, and include the default ISAAC ruleset:
 
 ```
 <?xml version="1.0" encoding="UTF-8"?>
@@ -31,8 +31,8 @@ Create a `phpcs.xml`-file in the root of your project, which extends the default
     <exclude-pattern>./src/Migrations</exclude-pattern>
     <exclude-pattern>./vendor</exclude-pattern>
 
-    <!-- extend isaac ruleset -->
-    <rule ref="vendor/isaac/php-code-sniffer/phpcs.xml"/>
+    <!-- include all rules in isaac ruleset -->
+    <rule ref="ISAAC"/>
 </ruleset>
 ```
 

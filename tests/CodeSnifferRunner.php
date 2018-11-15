@@ -70,7 +70,7 @@ class CodeSnifferRunner
         $ruleset = new Ruleset($this->codeSniffer->config);
 
         $file = new File($filePath, $ruleset, $this->codeSniffer->config);
-        $file->setContent(file_get_contents($filePath));
+        $file->setContent(\file_get_contents($filePath));
         $this->codeSniffer->processFile($file);
 
         return new CodeSnifferResults($file);

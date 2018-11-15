@@ -1,6 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<ruleset name="phpcs-isaac">
-    <description>PHP_CodeSniffer ruleset for development at ISAAC</description>
-    <!-- PSR2 standard -->
+<ruleset name="isaac-php-code-sniffer">
+    <!-- include root folder of project -->
+    <file>.</file>
+    <!-- exclude paths -->
+    <exclude-pattern>./vendor</exclude-pattern>
+    <!-- exlude tests assets -->
+    <exclude-pattern>/tests/*.inc</exclude-pattern>
+
+    <!-- include all rules in isaac ruleset -->
     <rule ref="ISAAC"/>
 </ruleset>

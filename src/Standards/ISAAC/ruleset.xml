@@ -32,6 +32,11 @@
     <!-- ISAAC -->
     <rule ref="ISAAC.ControlStructures.DisallowNullCoalesceOperator"/>
     <!-- 3rd party -->
+    <rule ref="ObjectCalisthenics.Files.FunctionLength">
+        <properties>
+            <property name="maxLength" value="20"/>
+        </properties>
+    </rule>
     <rule ref="SlevomatCodingStandard.Classes.ClassConstantVisibility"/>
     <rule ref="SlevomatCodingStandard.Namespaces.FullyQualifiedGlobalConstants"/>
     <rule ref="SlevomatCodingStandard.Namespaces.FullyQualifiedGlobalFunctions"/>

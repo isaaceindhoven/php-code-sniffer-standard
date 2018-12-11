@@ -13,6 +13,7 @@
             />
         </properties>
     </rule>
+    <rule ref="Generic.PHP.Syntax"/>
     <rule ref="Generic.Classes.DuplicateClassName"/>
     <rule ref="MySource.PHP.GetRequestData"/>
     <!-- Commenting -->
@@ -33,6 +34,7 @@
     <rule ref="ISAAC.ControlStructures.DisallowNullCoalesceOperator"/>
     <!-- 3rd party -->
     <rule ref="ObjectCalisthenics.Metrics.PropertyPerClassLimit">
+    <rule ref="ObjectCalisthenics.Metrics.MethodPerClassLimit">
         <properties>
             <property name="maxCount" value="10"/>
         </properties>

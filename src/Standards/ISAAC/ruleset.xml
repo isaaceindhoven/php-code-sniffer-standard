@@ -34,7 +34,7 @@
     <!-- 3rd party -->
     <rule ref="ObjectCalisthenics.Metrics.MaxNestingLevel">
         <properties>
-            <property name="maxNestingLevel" value="2"/>
+            <property name="maxNestingLevel" value="3"/>
         </properties>
     </rule>
     <rule ref="SlevomatCodingStandard.Classes.ClassConstantVisibility"/>

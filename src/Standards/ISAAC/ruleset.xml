@@ -13,6 +13,7 @@
             />
         </properties>
     </rule>
+    <rule ref="Generic.PHP.Syntax"/>
     <rule ref="Generic.Classes.DuplicateClassName"/>
     <rule ref="MySource.PHP.GetRequestData"/>
     <!-- Commenting -->
@@ -26,6 +27,12 @@
     <rule ref="Generic.CodeAnalysis.UnconditionalIfStatement"/>
     <rule ref="Generic.CodeAnalysis.UnnecessaryFinalModifier"/>
     <rule ref="Generic.CodeAnalysis.UselessOverridingMethod"/>
+    <rule ref="Generic.Metrics.CyclomaticComplexity">
+        <properties>
+            <property name="complexity" value="10" />
+            <property name="absoluteComplexity" value="20" />
+        </properties>
+    </rule>
     <!-- Arguments -->
     <arg value="sp"/>
     <arg name="colors"/>
@@ -35,6 +42,11 @@
     <rule ref="ObjectCalisthenics.Metrics.MaxNestingLevel">
         <properties>
             <property name="maxNestingLevel" value="3"/>
+        </properties>
+    </rule>
+    <rule ref="ObjectCalisthenics.Metrics.MethodPerClassLimit">
+        <properties>
+            <property name="maxCount" value="10"/>
         </properties>
     </rule>
     <rule ref="SlevomatCodingStandard.Classes.ClassConstantVisibility"/>

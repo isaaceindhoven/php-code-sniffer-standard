@@ -7,12 +7,10 @@
     <rule ref="Generic.Arrays.ArrayIndent"/>
     <rule ref="Generic.PHP.ForbiddenFunctions">
         <properties>
-            <property name="forbiddenFunctions" type="array" value="
-            empty=>null,
-            isset=>null"
-            />
+            <property name="forbiddenFunctions" type="array" value="empty=>null,isset=>null"/>
         </properties>
     </rule>
+    <rule ref="Generic.PHP.Syntax"/>
     <rule ref="Generic.Classes.DuplicateClassName"/>
     <rule ref="MySource.PHP.GetRequestData"/>
     <!-- Commenting -->
@@ -26,12 +24,33 @@
     <rule ref="Generic.CodeAnalysis.UnconditionalIfStatement"/>
     <rule ref="Generic.CodeAnalysis.UnnecessaryFinalModifier"/>
     <rule ref="Generic.CodeAnalysis.UselessOverridingMethod"/>
+    <rule ref="Generic.Metrics.CyclomaticComplexity">
+        <properties>
+            <property name="complexity" value="10"/>
+            <property name="absoluteComplexity" value="20"/>
+        </properties>
+    </rule>
     <!-- Arguments -->
     <arg value="sp"/>
     <arg name="colors"/>
     <!-- ISAAC -->
     <rule ref="ISAAC.ControlStructures.DisallowNullCoalesceOperator"/>
     <!-- 3rd party -->
+    <rule ref="ObjectCalisthenics.Metrics.MaxNestingLevel">
+        <properties>
+            <property name="maxNestingLevel" value="3"/>
+        </properties>
+    </rule>
+    <rule ref="ObjectCalisthenics.Metrics.MethodPerClassLimit">
+        <properties>
+            <property name="maxCount" value="10"/>
+        </properties>
+    </rule>
+    <rule ref="ObjectCalisthenics.Metrics.PropertyPerClassLimit">
+        <properties>
+            <property name="maxCount" value="10"/>
+        </properties>
+    </rule>
     <rule ref="SlevomatCodingStandard.Classes.ClassConstantVisibility"/>
     <rule ref="SlevomatCodingStandard.Namespaces.FullyQualifiedGlobalConstants"/>
     <rule ref="SlevomatCodingStandard.Namespaces.FullyQualifiedGlobalFunctions"/>

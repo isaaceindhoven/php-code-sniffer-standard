@@ -1,6 +1,6 @@
 ## [5.0.0] - 2018-12-19
 ### Added
-- Sniff to detect incorrect php syntax
+- Sniff to detect incorrect PHP syntax
 - Sniffs for object calisthenics (focus on maintainability, readability, testability and comprehensibility):
     - number of methods per class
     - number of properties per class

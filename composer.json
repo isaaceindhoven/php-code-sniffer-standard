@@ -6,11 +6,11 @@
   "require": {
     "php": "^7.1",
     "dealerdirect/phpcodesniffer-composer-installer": "^0.5",
+    "object-calisthenics/phpcs-calisthenics-rules": "^3.4",
     "slevomat/coding-standard": "^4.6"
   },
   "require-dev": {
-    "phpunit/phpunit": "~7.0",
-    "object-calisthenics/phpcs-calisthenics-rules": "^3.4"
+    "phpunit/phpunit": "~7.0"
   },
   "autoload": {
     "psr-4": {

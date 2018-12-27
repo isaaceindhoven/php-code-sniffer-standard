@@ -1,8 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <ruleset name="ISAAC">
     <description>PHP_CodeSniffer ruleset for development at ISAAC</description>
+
+    <!-- Arguments -->
+    <arg value="sp"/>
+    <arg name="colors"/>
+
     <!-- PSR2 standard -->
     <rule ref="PSR2"/>
+
     <!-- Extra rules -->
     <rule ref="Generic.Arrays.ArrayIndent"/>
     <rule ref="Generic.PHP.ForbiddenFunctions">
@@ -13,10 +19,8 @@
     <rule ref="Generic.PHP.Syntax"/>
     <rule ref="Generic.Classes.DuplicateClassName"/>
     <rule ref="MySource.PHP.GetRequestData"/>
-    <!-- Commenting -->
     <rule ref="Generic.Commenting.Fixme"/>
     <rule ref="Generic.Commenting.Todo"/>
-    <!-- Code analysis -->
     <rule ref="Generic.CodeAnalysis.EmptyStatement"/>
     <rule ref="Generic.CodeAnalysis.ForLoopShouldBeWhileLoop"/>
     <rule ref="Generic.CodeAnalysis.ForLoopWithTestFunctionCall"/>
@@ -30,11 +34,10 @@
             <property name="absoluteComplexity" value="20"/>
         </properties>
     </rule>
-    <!-- Arguments -->
-    <arg value="sp"/>
-    <arg name="colors"/>
+
     <!-- ISAAC -->
     <rule ref="ISAAC.ControlStructures.DisallowNullCoalesceOperator"/>
+
     <!-- 3rd party -->
     <rule ref="ObjectCalisthenics.Metrics.MaxNestingLevel">
         <properties>

@@ -1,3 +1,15 @@
+## [5.0.0] - 2018-12-19
+### Added
+- Sniff to detect incorrect PHP syntax
+- Sniffs for object calisthenics (focus on maintainability, readability, testability and comprehensibility):
+    - number of methods per class
+    - number of properties per class
+    - cyclomatic complexity
+    - max nesting level
+
+### Updated
+- dealerdirect/phpcodesniffer-composer-installer to 0.5.0+
+
 ## [4.0.0] - 2018-11-14
 ### Added
 - Sniff to disallow empty()

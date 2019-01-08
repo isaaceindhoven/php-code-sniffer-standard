@@ -1,7 +1,14 @@
+## [6.0.0] - 2019-01-08
+### Added
+- Sniff to check for unused private elements
+- Sniff to check alphabetically sorted uses
+- Sniff to disallow long array syntax
+- Sniff for object calisthenics: maxFunctionLength of 25 characters
+
 ## [5.0.0] - 2018-12-19
 ### Added
 - Sniff to detect incorrect PHP syntax
-- Sniffs for object calisthenics (focus on maintainability, readability, testability and comprehensibility):
+-  (focus on maintainability, readability, testability and comprehensibility):
     - number of methods per class
     - number of properties per class
     - cyclomatic complexity

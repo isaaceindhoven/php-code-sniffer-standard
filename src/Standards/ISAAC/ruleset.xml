@@ -11,6 +11,7 @@
 
     <!-- Extra rules -->
     <rule ref="Generic.Arrays.ArrayIndent"/>
+    <rule ref="Generic.Arrays.DisallowLongArraySyntax"/>
     <rule ref="Generic.PHP.ForbiddenFunctions">
         <properties>
             <property name="forbiddenFunctions" type="array" value="empty=>null,isset=>null"/>

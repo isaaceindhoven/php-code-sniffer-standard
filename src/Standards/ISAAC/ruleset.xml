@@ -39,6 +39,11 @@
     <rule ref="ISAAC.ControlStructures.DisallowNullCoalesceOperator"/>
 
     <!-- 3rd party -->
+    <rule ref="ObjectCalisthenics.Files.FunctionLength">
+        <properties>
+            <property name="maxLength" value="25"/>
+        </properties>
+    </rule>
     <rule ref="ObjectCalisthenics.Metrics.MaxNestingLevel">
         <properties>
             <property name="maxNestingLevel" value="3"/>

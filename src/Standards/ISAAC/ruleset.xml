@@ -41,7 +41,7 @@
     <!-- 3rd party -->
     <rule ref="ObjectCalisthenics.Files.FunctionLength">
         <properties>
-            <property name="maxLength" value="20"/>
+            <property name="maxLength" value="25"/>
         </properties>
     </rule>
     <rule ref="ObjectCalisthenics.Metrics.MaxNestingLevel">

@@ -9,10 +9,8 @@ use PHP_CodeSniffer\Sniffs\Sniff;
 
 class DisallowNullCoalesceOperatorSniff implements Sniff
 {
-    /** @var string */
     public const CODE_DISALLOW_NULL_COALESCE_OPERATOR = 'DisallowNullCoalesceOperator';
 
-    /** @var string */
     public const ERROR_MESSAGE = 'Use of null coalesce operator is disallowed.';
 
     /**

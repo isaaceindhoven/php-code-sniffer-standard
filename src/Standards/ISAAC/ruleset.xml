@@ -35,6 +35,7 @@
             <property name="absoluteComplexity" value="20"/>
         </properties>
     </rule>
+    <rule ref="PSR12.Operators.OperatorSpacing"/>
 
     <!-- ISAAC -->
     <rule ref="ISAAC.ControlStructures.DisallowNullCoalesceOperator"/>

@@ -14,7 +14,7 @@
     <rule ref="Generic.Arrays.DisallowLongArraySyntax"/>
     <rule ref="Generic.PHP.ForbiddenFunctions">
         <properties>
-            <property name="forbiddenFunctions" type="array" value="empty=>null,isset=>null"/>
+            <property name="forbiddenFunctions" type="array" value="empty=>null,isset=>null,is_null=>null"/>
         </properties>
     </rule>
     <rule ref="Generic.PHP.Syntax"/>

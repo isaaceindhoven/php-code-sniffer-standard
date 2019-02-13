@@ -89,16 +89,13 @@
     <rule ref="SlevomatCodingStandard.TypeHints.TypeHintDeclaration.MissingParameterTypeHint"/>
     <rule ref="SlevomatCodingStandard.TypeHints.TypeHintDeclaration.MissingPropertyTypeHint"/>
     <rule ref="SlevomatCodingStandard.TypeHints.TypeHintDeclaration.MissingReturnTypeHint"/>
-<<<<<<< HEAD
     <rule ref="SlevomatCodingStandard.TypeHints.UselessConstantTypeHint"/>
-=======
     <rule ref="SlevomatCodingStandard.Types.EmptyLinesAroundTypeBraces">
         <properties>
             <property name="linesCountAfterOpeningBrace" value="0"/>
             <property name="linesCountBeforeClosingBrace" value="0"/>
         </properties>
     </rule>
->>>>>>> Add rule for begin and end spacing for types
     <rule ref="SlevomatCodingStandard.ControlStructures.DisallowEqualOperators"/>
     <rule ref="SlevomatCodingStandard.ControlStructures.DisallowYodaComparison"/>
     <rule ref="SlevomatCodingStandard.ControlStructures.RequireShortTernaryOperator"/>
@@ -112,6 +109,11 @@
             <property name="spacing" value="1"/>
             <property name="spacingBeforeFirst" value="0"/>
             <property name="spacingAfterLast" value="0"/>
+          </properties>
+      </rule>
+    <rule ref="Squiz.WhiteSpace.SuperfluousWhitespace">
+        <properties>
+            <property name="ignoreBlankLines" value="false"/>
         </properties>
     </rule>
 </ruleset>

@@ -1,3 +1,6 @@
+## [7.0.1] - 2019-02-14
+- Tagged new version because the v7.0.0 was placed on the develop branch instead of the master branch.
+
 ## [7.0.0] - 2019-02-13
 ### Added
 - Sniff to check return type hint whitespace

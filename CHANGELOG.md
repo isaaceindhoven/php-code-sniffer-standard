@@ -1,9 +1,20 @@
+## [7.0.0] - 2019-02-13
+### Added
+- Sniff to check return type hint whitespace
+- Sniff to check for useless constant type hints
+- Sniff to check spacing around functions
+- Sniff to enforce camel caps for (member) variables
+- Sniff to check operator spacing
+- Sniff to disallow is_null()
+- Sniff to disallow blank lines at the begin and end of classes, interfaces and traits
+- Sniff to disallow whitespace on blank lines
+
 ## [6.0.0] - 2019-01-08
 ### Added
 - Sniff to check for unused private elements
 - Sniff to check alphabetically sorted uses
 - Sniff to disallow long array syntax
-- Sniff for object calisthenics: maxFunctionLength of 25 characters
+- Sniff for object calisthenics: maxFunctionLength of 25 lines
 
 ## [5.0.0] - 2018-12-19
 ### Added

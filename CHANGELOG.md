@@ -3,7 +3,7 @@
 - Sniff to check for unused private elements
 - Sniff to check alphabetically sorted uses
 - Sniff to disallow long array syntax
-- Sniff for object calisthenics: maxFunctionLength of 25 characters
+- Sniff for object calisthenics: maxFunctionLength of 25 lines
 
 ## [5.0.0] - 2018-12-19
 ### Added

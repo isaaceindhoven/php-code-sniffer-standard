@@ -31,7 +31,7 @@
     <rule ref="Generic.CodeAnalysis.UselessOverridingMethod"/>
     <rule ref="Generic.Formatting.SpaceAfterCast">
         <properties>
-            <property name="spacing" value="0"/>
+            <property name="spacing" value="1"/>
         </properties>
     </rule>
     <rule ref="Generic.Metrics.CyclomaticComplexity">

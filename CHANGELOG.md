@@ -1,3 +1,14 @@
+## [8.0.0] - 2019-03-25
+### Added
+- Sniff to require exactly one space after casting expression.
+
+### Updated
+- slevomat/coding-standard from ^4.6 to ^5.0
+- object-calisthenics/phpcs-calisthenics-rules from ^3.4 to ^3.5
+
+### Removed
+- object-calisthenics/phpcs-calisthenics-rules from dev-dependencies
+
 ## [7.0.1] - 2019-02-14
 - Tagged new version because the v7.0.0 was placed on the develop branch instead of the master branch.
 

@@ -1,3 +1,8 @@
+## [9.0.0] - 2019-04-09
+### Updated
+- Require importing global functions and constants
+
+
 ## [8.0.0] - 2019-03-25
 ### Added
 - Sniff to require exactly one space after casting expression.

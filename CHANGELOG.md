@@ -1,7 +1,10 @@
+## [10.0.0] - 2019-07-05
+### Added
+- Sniff to disallow use of double quotes when it is not required
+
 ## [9.0.0] - 2019-04-09
 ### Updated
 - Require importing global functions and constants
-
 
 ## [8.0.0] - 2019-03-25
 ### Added

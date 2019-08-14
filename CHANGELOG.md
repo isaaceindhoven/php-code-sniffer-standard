@@ -1,4 +1,4 @@
-## [10.0.0] - 2019-08-14
+## [11.0.0] - 2019-08-14
 ### Added
 - Sniff to require trailing commas in multi-line arrays
 - Sniff to require a closure to be static when it does not use `$this`

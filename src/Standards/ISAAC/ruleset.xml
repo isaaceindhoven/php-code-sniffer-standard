@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <ruleset name="ISAAC">
     <description>PHP_CodeSniffer ruleset for development at ISAAC</description>
-
+    <!-- Each block should be ordered alphabetically -->
     <!-- Arguments -->
     <arg value="sp"/>
     <arg name="colors"/>
@@ -12,16 +12,7 @@
     <!-- Extra rules -->
     <rule ref="Generic.Arrays.ArrayIndent"/>
     <rule ref="Generic.Arrays.DisallowLongArraySyntax"/>
-    <rule ref="Generic.PHP.ForbiddenFunctions">
-        <properties>
-            <property name="forbiddenFunctions" type="array" value="empty=>null,isset=>null,is_null=>null"/>
-        </properties>
-    </rule>
-    <rule ref="Generic.PHP.Syntax"/>
     <rule ref="Generic.Classes.DuplicateClassName"/>
-    <rule ref="MySource.PHP.GetRequestData"/>
-    <rule ref="Generic.Commenting.Fixme"/>
-    <rule ref="Generic.Commenting.Todo"/>
     <rule ref="Generic.CodeAnalysis.EmptyStatement"/>
     <rule ref="Generic.CodeAnalysis.ForLoopShouldBeWhileLoop"/>
     <rule ref="Generic.CodeAnalysis.ForLoopWithTestFunctionCall"/>
@@ -29,6 +20,8 @@
     <rule ref="Generic.CodeAnalysis.UnconditionalIfStatement"/>
     <rule ref="Generic.CodeAnalysis.UnnecessaryFinalModifier"/>
     <rule ref="Generic.CodeAnalysis.UselessOverridingMethod"/>
+    <rule ref="Generic.Commenting.Fixme"/>
+    <rule ref="Generic.Commenting.Todo"/>
     <rule ref="Generic.Formatting.SpaceAfterCast">
         <properties>
             <property name="spacing" value="1"/>
@@ -40,6 +33,13 @@
             <property name="absoluteComplexity" value="20"/>
         </properties>
     </rule>
+    <rule ref="Generic.PHP.ForbiddenFunctions">
+        <properties>
+            <property name="forbiddenFunctions" type="array" value="empty=>null,isset=>null,is_null=>null"/>
+        </properties>
+    </rule>
+    <rule ref="Generic.PHP.Syntax"/>
+    <rule ref="MySource.PHP.GetRequestData"/>
     <rule ref="PSR12.Operators.OperatorSpacing"/>
 
     <!-- ISAAC -->
@@ -68,7 +68,16 @@
     </rule>
     <rule ref="SlevomatCodingStandard.Arrays.TrailingArrayComma"/>
     <rule ref="SlevomatCodingStandard.Classes.ClassConstantVisibility"/>
+    <rule ref="SlevomatCodingStandard.Classes.EmptyLinesAroundClassBraces">
+        <properties>
+            <property name="linesCountAfterOpeningBrace" value="0"/>
+            <property name="linesCountBeforeClosingBrace" value="0"/>
+        </properties>
+    </rule>
+    <rule ref="SlevomatCodingStandard.Classes.SuperfluousInterfaceNaming"/>
     <rule ref="SlevomatCodingStandard.Classes.UnusedPrivateElements"/>
+    <rule ref="SlevomatCodingStandard.ControlStructures.DisallowYodaComparison"/>
+    <rule ref="SlevomatCodingStandard.ControlStructures.RequireShortTernaryOperator"/>
     <rule ref="SlevomatCodingStandard.Functions.StaticClosure"/>
     <rule ref="SlevomatCodingStandard.Namespaces.AlphabeticallySortedUses"/>
     <rule ref="SlevomatCodingStandard.Namespaces.ReferenceUsedNamesOnly">
@@ -84,6 +93,8 @@
         </properties>
     </rule>
     <rule ref="SlevomatCodingStandard.Namespaces.UseFromSameNamespace"/>
+    <rule ref="SlevomatCodingStandard.Operators.DisallowEqualOperators"/>
+    <rule ref="SlevomatCodingStandard.PHP.TypeCast"/>
     <rule ref="SlevomatCodingStandard.TypeHints.DeclareStrictTypes">
         <properties>
             <property name="newlinesCountBetweenOpenTagAndDeclare" value="2"/>
@@ -95,19 +106,8 @@
     <rule ref="SlevomatCodingStandard.TypeHints.TypeHintDeclaration.MissingPropertyTypeHint"/>
     <rule ref="SlevomatCodingStandard.TypeHints.TypeHintDeclaration.MissingReturnTypeHint"/>
     <rule ref="SlevomatCodingStandard.TypeHints.UselessConstantTypeHint"/>
-    <rule ref="SlevomatCodingStandard.Classes.EmptyLinesAroundClassBraces">
-        <properties>
-            <property name="linesCountAfterOpeningBrace" value="0"/>
-            <property name="linesCountBeforeClosingBrace" value="0"/>
-        </properties>
-    </rule>
-    <rule ref="SlevomatCodingStandard.Operators.DisallowEqualOperators"/>
-    <rule ref="SlevomatCodingStandard.ControlStructures.DisallowYodaComparison"/>
-    <rule ref="SlevomatCodingStandard.ControlStructures.RequireShortTernaryOperator"/>
-    <rule ref="SlevomatCodingStandard.PHP.TypeCast"/>
-    <rule ref="SlevomatCodingStandard.Classes.SuperfluousInterfaceNaming"/>
-    <rule ref="Squiz.NamingConventions.ValidVariableName.NotCamelCaps"/>
     <rule ref="Squiz.NamingConventions.ValidVariableName.MemberNotCamelCaps"/>
+    <rule ref="Squiz.NamingConventions.ValidVariableName.NotCamelCaps"/>
     <rule ref="Squiz.Strings.DoubleQuoteUsage.ContainsVar"/>
     <rule ref="Squiz.Strings.DoubleQuoteUsage.NotRequired" />
     <rule ref="Squiz.WhiteSpace.FunctionSpacing">

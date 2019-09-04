@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <ruleset name="ISAAC">
     <description>PHP_CodeSniffer ruleset for development at ISAAC</description>
-    <!-- Each block should be ordered alphabetically -->
+
     <!-- Arguments -->
     <arg value="sp"/>
     <arg name="colors"/>
@@ -9,6 +9,7 @@
     <!-- PSR2 standard -->
     <rule ref="PSR2"/>
 
+    <!-- This block should be ordered alphabetically -->
     <!-- Extra rules -->
     <rule ref="Generic.Arrays.ArrayIndent"/>
     <rule ref="Generic.Arrays.DisallowLongArraySyntax"/>
@@ -42,9 +43,11 @@
     <rule ref="MySource.PHP.GetRequestData"/>
     <rule ref="PSR12.Operators.OperatorSpacing"/>
 
+    <!-- This block should be ordered alphabetically -->
     <!-- ISAAC -->
     <rule ref="ISAAC.ControlStructures.DisallowNullCoalesceOperator"/>
 
+    <!-- This block should be ordered alphabetically -->
     <!-- 3rd party -->
     <rule ref="ObjectCalisthenics.Files.FunctionLength">
         <properties>

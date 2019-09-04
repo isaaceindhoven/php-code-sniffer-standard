@@ -17,11 +17,7 @@
             <property name="forbiddenFunctions" type="array" value="empty=>null,isset=>null,is_null=>null"/>
         </properties>
     </rule>
-    <rule ref="Generic.PHP.Syntax"/>
     <rule ref="Generic.Classes.DuplicateClassName"/>
-    <rule ref="MySource.PHP.GetRequestData"/>
-    <rule ref="Generic.Commenting.Fixme"/>
-    <rule ref="Generic.Commenting.Todo"/>
     <rule ref="Generic.CodeAnalysis.EmptyStatement"/>
     <rule ref="Generic.CodeAnalysis.ForLoopShouldBeWhileLoop"/>
     <rule ref="Generic.CodeAnalysis.ForLoopWithTestFunctionCall"/>
@@ -29,7 +25,11 @@
     <rule ref="Generic.CodeAnalysis.UnconditionalIfStatement"/>
     <rule ref="Generic.CodeAnalysis.UnnecessaryFinalModifier"/>
     <rule ref="Generic.CodeAnalysis.UselessOverridingMethod"/>
+    <rule ref="Generic.Commenting.Fixme"/>
+    <rule ref="Generic.Commenting.Todo"/>
     <rule ref="Generic.Formatting.SpaceAfterCast">
+    <rule ref="Generic.PHP.Syntax"/>
+    <rule ref="MySource.PHP.GetRequestData"/>
         <properties>
             <property name="spacing" value="1"/>
         </properties>
@@ -90,24 +90,24 @@
             <property name="spacesCountAroundEqualsSign" value="0"/>
         </properties>
     </rule>
+    <rule ref="SlevomatCodingStandard.Classes.EmptyLinesAroundClassBraces">
     <rule ref="SlevomatCodingStandard.TypeHints.ReturnTypeHintSpacing"/>
     <rule ref="SlevomatCodingStandard.TypeHints.TypeHintDeclaration.MissingParameterTypeHint"/>
     <rule ref="SlevomatCodingStandard.TypeHints.TypeHintDeclaration.MissingPropertyTypeHint"/>
     <rule ref="SlevomatCodingStandard.TypeHints.TypeHintDeclaration.MissingReturnTypeHint"/>
     <rule ref="SlevomatCodingStandard.TypeHints.UselessConstantTypeHint"/>
-    <rule ref="SlevomatCodingStandard.Classes.EmptyLinesAroundClassBraces">
         <properties>
             <property name="linesCountAfterOpeningBrace" value="0"/>
             <property name="linesCountBeforeClosingBrace" value="0"/>
         </properties>
     </rule>
-    <rule ref="SlevomatCodingStandard.Operators.DisallowEqualOperators"/>
+    <rule ref="SlevomatCodingStandard.Classes.SuperfluousInterfaceNaming"/>
     <rule ref="SlevomatCodingStandard.ControlStructures.DisallowYodaComparison"/>
     <rule ref="SlevomatCodingStandard.ControlStructures.RequireShortTernaryOperator"/>
+    <rule ref="SlevomatCodingStandard.Operators.DisallowEqualOperators"/>
     <rule ref="SlevomatCodingStandard.PHP.TypeCast"/>
-    <rule ref="SlevomatCodingStandard.Classes.SuperfluousInterfaceNaming"/>
-    <rule ref="Squiz.NamingConventions.ValidVariableName.NotCamelCaps"/>
     <rule ref="Squiz.NamingConventions.ValidVariableName.MemberNotCamelCaps"/>
+    <rule ref="Squiz.NamingConventions.ValidVariableName.NotCamelCaps"/>
     <rule ref="Squiz.Strings.DoubleQuoteUsage.ContainsVar"/>
     <rule ref="Squiz.Strings.DoubleQuoteUsage.NotRequired" />
     <rule ref="Squiz.WhiteSpace.FunctionSpacing">

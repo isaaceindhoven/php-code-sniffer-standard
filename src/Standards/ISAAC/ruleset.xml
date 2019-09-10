@@ -6,8 +6,8 @@
     <arg value="sp"/>
     <arg name="colors"/>
 
-    <!-- PSR2 standard -->
-    <rule ref="PSR2"/>
+    <!-- PSR12 standard -->
+    <rule ref="PSR12"/>
 
     <!-- This block should be ordered alphabetically -->
     <!-- Extra rules -->

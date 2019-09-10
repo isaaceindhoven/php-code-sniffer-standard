@@ -1,3 +1,10 @@
+## [X.Y.Z] - TBD
+### Added
+- PSR-12 ruleset
+
+### Removed
+- PSR-2 ruleset
+
 ## [11.0.0] - 2019-08-14
 ### Added
 - Sniff to require trailing commas in multi-line arrays

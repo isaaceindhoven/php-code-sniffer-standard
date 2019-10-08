@@ -1,6 +1,7 @@
 ## [X.Y.Z] - TBD
 ### Added
 - PSR-12 ruleset
+- Sniff to disallow multiple statement alignment
 
 ### Removed
 - PSR-2 ruleset

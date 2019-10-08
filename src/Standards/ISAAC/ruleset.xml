@@ -9,6 +9,9 @@
     <!-- PSR12 standard -->
     <rule ref="PSR12"/>
 
+    <!-- PHP compatibility -->
+    <rule ref="PHPCompatibility"/>
+
     <!-- This block should be ordered alphabetically -->
     <!-- Extra rules -->
     <rule ref="Generic.Arrays.ArrayIndent"/>

@@ -40,7 +40,9 @@ Change the name of the ruleset, modify the excluded paths and/or include custom 
 
 #### PHPCompatibility
 
-If you want to check your code for compatibility with higher and lower versions of PHP, include a config rule in your `phpcs.xml`. Examples:
+To get the most out of the PHPCompatibility standard, you should specify a testVersion to check against.
+That will enable the checks for both deprecated/removed PHP features as well as the detection of code using new PHP features.
+Include the testVersion by adding a config rule in your `phpcs.xml`. Examples:
 
 ```
     <config name="testVersion" value="7.0"/> <!-- check for compatability with php 7.0 -->

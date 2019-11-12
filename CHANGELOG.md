@@ -6,6 +6,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 ### Added
+- Sniff to disallow spaces when passing variables as reference
 - Sniff to disallow multiple statement alignment
 
 ## [12.0.0] - 2019-09-10

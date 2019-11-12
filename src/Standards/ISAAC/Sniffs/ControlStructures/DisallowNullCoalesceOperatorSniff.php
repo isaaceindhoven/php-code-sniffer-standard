@@ -7,6 +7,8 @@ namespace IsaacCodingStandard\Standards\ISAAC\Sniffs\ControlStructures;
 use PHP_CodeSniffer\Files\File;
 use PHP_CodeSniffer\Sniffs\Sniff;
 
+use const T_COALESCE;
+
 class DisallowNullCoalesceOperatorSniff implements Sniff
 {
     public const CODE_DISALLOW_NULL_COALESCE_OPERATOR = 'DisallowNullCoalesceOperator';
@@ -19,7 +21,7 @@ class DisallowNullCoalesceOperatorSniff implements Sniff
     public function register(): array
     {
         return [
-            \T_COALESCE,
+            T_COALESCE,
         ];
     }
 
@@ -32,7 +34,7 @@ class DisallowNullCoalesceOperatorSniff implements Sniff
     {
         $tokens = $phpcsFile->getTokens();
 
-        if ($tokens[$stackPtr]['code'] === \T_COALESCE && $tokens[$stackPtr]['content'] === '??') {
+        if ($tokens[$stackPtr]['code'] === T_COALESCE && $tokens[$stackPtr]['content'] === '??') {
             $phpcsFile->addError(self::ERROR_MESSAGE, $stackPtr, self::CODE_DISALLOW_NULL_COALESCE_OPERATOR);
         }
     }

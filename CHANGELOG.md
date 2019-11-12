@@ -8,6 +8,9 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ### Added
 - Sniff to disallow multiple statement alignment
 
+## Fixed
+- Fix code to adhere to the coding standard
+
 ## [12.0.0] - 2019-09-10
 ### Added
 - PSR-12 ruleset

@@ -12,6 +12,8 @@ use PHP_CodeSniffer\Reporter;
 use PHP_CodeSniffer\Ruleset;
 use PHP_CodeSniffer\Runner;
 
+use function file_get_contents;
+
 class CodeSnifferRunner
 {
     /** @var Runner $codeSniffer */
@@ -70,7 +72,7 @@ class CodeSnifferRunner
         $ruleset = new Ruleset($this->codeSniffer->config);
 
         $file = new File($filePath, $ruleset, $this->codeSniffer->config);
-        $file->setContent(\file_get_contents($filePath));
+        $file->setContent(file_get_contents($filePath));
         $this->codeSniffer->processFile($file);
 
         return new CodeSnifferResults($file);

@@ -12,7 +12,6 @@ use const T_COALESCE;
 class DisallowNullCoalesceOperatorSniff implements Sniff
 {
     public const CODE_DISALLOW_NULL_COALESCE_OPERATOR = 'DisallowNullCoalesceOperator';
-
     public const ERROR_MESSAGE = 'Use of null coalesce operator is disallowed.';
 
     /**

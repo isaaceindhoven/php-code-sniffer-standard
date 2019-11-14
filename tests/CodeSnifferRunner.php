@@ -6,11 +6,11 @@ namespace IsaacCodingStandard\Tests;
 
 use PHP_CodeSniffer\Config;
 use PHP_CodeSniffer\Exceptions\DeepExitException;
-use PHP_CodeSniffer\Exceptions\RuntimeException;
 use PHP_CodeSniffer\Files\File;
 use PHP_CodeSniffer\Reporter;
 use PHP_CodeSniffer\Ruleset;
 use PHP_CodeSniffer\Runner;
+use function file_get_contents;
 
 class CodeSnifferRunner
 {
@@ -24,7 +24,6 @@ class CodeSnifferRunner
     protected $path;
 
     /**
-     * @throws RuntimeException
      * @throws DeepExitException
      */
     public function __construct()
@@ -61,7 +60,6 @@ class CodeSnifferRunner
      * @param string $fileName
      * @return CodeSnifferResults
      * @throws DeepExitException
-     * @throws RuntimeException
      */
     public function sniff(string $fileName): CodeSnifferResults
     {
@@ -70,7 +68,7 @@ class CodeSnifferRunner
         $ruleset = new Ruleset($this->codeSniffer->config);
 
         $file = new File($filePath, $ruleset, $this->codeSniffer->config);
-        $file->setContent(\file_get_contents($filePath));
+        $file->setContent(file_get_contents($filePath));
         $this->codeSniffer->processFile($file);
 
         return new CodeSnifferResults($file);

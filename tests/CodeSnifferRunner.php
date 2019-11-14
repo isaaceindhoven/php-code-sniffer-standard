@@ -12,6 +12,8 @@ use PHP_CodeSniffer\Ruleset;
 use PHP_CodeSniffer\Runner;
 use function file_get_contents;
 
+use function file_get_contents;
+
 class CodeSnifferRunner
 {
     /** @var Runner $codeSniffer */

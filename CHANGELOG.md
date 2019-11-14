@@ -8,6 +8,17 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ### Updated
 - Code now adheres own codestyle
 
+## [13.0.1] - 2019-11-13
+## Fixed
+- Add squizlabs/php_codesniffer and sebastian/recursion-context as root dependencies in composer.json
+
+## [13.0.0] - 2019-11-12
+### Added
+- Sniff to disallow multiple statement alignment
+
+## Fixed
+- Fix code to adhere to the coding standard
+
 ## [12.0.0] - 2019-09-10
 ### Added
 - PSR-12 ruleset

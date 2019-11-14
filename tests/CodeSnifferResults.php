@@ -7,7 +7,6 @@ namespace IsaacCodingStandard\Tests;
 use PHP_CodeSniffer\Files\File;
 
 use function array_walk_recursive;
-use function reset;
 
 class CodeSnifferResults
 {
@@ -37,21 +36,6 @@ class CodeSnifferResults
         });
 
         return $allErrorMessages;
-    }
-
-    /**
-     * @return array
-     */
-    public function getAllWarningMessages(): array
-    {
-        $getAllWarningMessages = [];
-        $warnings = $this->wrappedClass->getWarnings();
-
-        foreach ($warnings as $warning) {
-            $getAllWarningMessages[] = reset($warning)[0]['message'];
-        }
-
-        return $getAllWarningMessages;
     }
 
     /**

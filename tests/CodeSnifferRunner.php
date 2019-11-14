@@ -10,7 +10,6 @@ use PHP_CodeSniffer\Files\File;
 use PHP_CodeSniffer\Reporter;
 use PHP_CodeSniffer\Ruleset;
 use PHP_CodeSniffer\Runner;
-use function file_get_contents;
 
 use function file_get_contents;
 

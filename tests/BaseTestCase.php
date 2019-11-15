@@ -5,7 +5,6 @@ declare(strict_types=1);
 namespace IsaacCodingStandard\Tests;
 
 use PHP_CodeSniffer\Exceptions\DeepExitException;
-use PHP_CodeSniffer\Exceptions\RuntimeException;
 use PHPUnit\Framework\TestCase;
 
 class BaseTestCase extends TestCase
@@ -16,7 +15,6 @@ class BaseTestCase extends TestCase
     /**
      * @return void
      * @throws DeepExitException
-     * @throws RuntimeException
      */
     public function setUp(): void
     {

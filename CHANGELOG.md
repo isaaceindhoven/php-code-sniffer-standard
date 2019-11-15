@@ -7,6 +7,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ## [Unreleased]
 ### Fixed
 - Code now adheres own codestyle
+- Included phpstan
 
 ## [13.0.1] - 2019-11-13
 ## Fixed

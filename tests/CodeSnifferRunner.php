@@ -10,8 +10,10 @@ use PHP_CodeSniffer\Files\File;
 use PHP_CodeSniffer\Reporter;
 use PHP_CodeSniffer\Ruleset;
 use PHP_CodeSniffer\Runner;
+use RuntimeException;
 
 use function file_get_contents;
+use function sprintf;
 
 class CodeSnifferRunner
 {
@@ -64,12 +66,17 @@ class CodeSnifferRunner
      */
     public function sniff(string $fileName): CodeSnifferResults
     {
-        $filePath = $this->path . $fileName;
-
+        $filePath = sprintf('%s%s', $this->path, $fileName);
         $ruleset = new Ruleset($this->codeSniffer->config);
 
         $file = new File($filePath, $ruleset, $this->codeSniffer->config);
-        $file->setContent(file_get_contents($filePath));
+        $fileContents = file_get_contents($filePath);
+
+        if ($fileContents === false) {
+            throw new RuntimeException(sprintf('File contents could not be read from "%s"', $filePath));
+        }
+
+        $file->setContent($fileContents);
         $this->codeSniffer->processFile($file);
 
         return new CodeSnifferResults($file);

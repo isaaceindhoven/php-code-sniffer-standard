@@ -110,8 +110,8 @@
         </properties>
     </rule>
     <rule ref="SlevomatCodingStandard.TypeHints.ReturnTypeHintSpacing"/>
-    <rule ref="SlevomatCodingStandard.TypeHints.ParameterTypeHintSniff.MissingAnyTypeHint"/>
-    <rule ref="SlevomatCodingStandard.TypeHints.PropertyTypeHintSniff.MissingAnyTypeHint"/>
+    <rule ref="SlevomatCodingStandard.TypeHints.ParameterTypeHint.MissingAnyTypeHint"/>
+    <rule ref="SlevomatCodingStandard.TypeHints.PropertyTypeHint.MissingAnyTypeHint"/>
     <rule ref="SlevomatCodingStandard.TypeHints.ReturnTypeHint.MissingAnyTypeHint"/>
     <rule ref="SlevomatCodingStandard.TypeHints.UselessConstantTypeHint"/>
     <rule ref="Squiz.NamingConventions.ValidVariableName.MemberNotCamelCaps"/>

@@ -8,7 +8,6 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ### Changed
 - Update slevomat/coding-standard to version 6
 
-## Removed
 ### Removed
 - Drop support for PHP 7.2
 

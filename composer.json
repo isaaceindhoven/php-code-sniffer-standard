@@ -24,8 +24,7 @@
     },
     "autoload-dev": {
         "psr-4": {
-            "IsaacCodingStandard\\Tests\\": "tests/",
-            "PHP_CodeSniffer\\": "vendor/squizlabs/php_codesniffer/src/"
+            "IsaacCodingStandard\\Tests\\": "tests/"
         },
         "files": [
             "vendor/squizlabs/php_codesniffer/autoload.php"

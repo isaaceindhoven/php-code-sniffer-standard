@@ -7,6 +7,36 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ## [Unreleased]
 ### Added
 - PHPCompatibility
+- Sniff to disallow spaces when passing variables as reference
+
+## [14.0.1] - 2019-12-18
+### Fixed
+- Fixed wrongly typed sniff names
+
+## [14.0.0] - 2019-12-18
+### Changed
+- Update slevomat/coding-standard to version 6
+
+### Removed
+- Drop support for PHP 7.2
+
+## [13.0.2] - 2019-11-15
+### Added
+- Included phpstan
+
+### Fixed
+- Code now adheres own codestyle
+
+## [13.0.1] - 2019-11-13
+## Fixed
+- Add squizlabs/php_codesniffer and sebastian/recursion-context as root dependencies in composer.json
+
+## [13.0.0] - 2019-11-12
+### Added
+- Sniff to disallow multiple statement alignment
+
+## Fixed
+- Fix code to adhere to the coding standard
 
 ## [12.0.0] - 2019-09-10
 ### Added

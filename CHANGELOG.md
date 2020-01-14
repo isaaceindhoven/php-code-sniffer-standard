@@ -6,6 +6,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 ### Added
+- PHPCompatibility
 - Sniff to disallow spaces when passing variables as reference
 
 ## [14.0.1] - 2019-12-18

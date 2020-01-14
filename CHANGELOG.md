@@ -9,6 +9,22 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - Sniff to disallow spaces when passing variables as reference
 
 ### Updated
+## [14.0.1] - 2019-12-18
+### Fixed
+- Fixed wrongly typed sniff names
+
+## [14.0.0] - 2019-12-18
+### Changed
+- Update slevomat/coding-standard to version 6
+
+### Removed
+- Drop support for PHP 7.2
+
+## [13.0.2] - 2019-11-15
+### Added
+- Included phpstan
+
+### Fixed
 - Code now adheres own codestyle
 
 ## [13.0.1] - 2019-11-13

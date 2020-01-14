@@ -9,4 +9,6 @@
 
     <!-- include all rules in isaac ruleset -->
     <rule ref="ISAAC"/>
+
+    <config name="testVersion" value="7.2-"/>
 </ruleset>

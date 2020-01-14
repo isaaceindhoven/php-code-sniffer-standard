@@ -24,10 +24,11 @@
     },
     "autoload-dev": {
         "psr-4": {
-            "IsaacCodingStandard\\Tests\\": "tests"
+            "IsaacCodingStandard\\Tests\\": "tests/",
+            "PHP_CodeSniffer\\": "vendor/squizlabs/php_codesniffer/src/"
         },
-        "classmap": [
-            "vendor/squizlabs/php_codesniffer"
+        "files": [
+            "vendor/squizlabs/php_codesniffer/autoload.php"
         ]
     }
 }

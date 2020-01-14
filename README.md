@@ -38,6 +38,20 @@ Create a `phpcs.xml`-file in the root of your project, and include the default I
 
 Change the name of the ruleset, modify the excluded paths and/or include custom rulesets for your project.
 
+#### PHPCompatibility
+
+To get the most out of the PHPCompatibility standard, you should specify a testVersion to check against.
+That will enable the checks for both deprecated/removed PHP features as well as the detection of code using new PHP features.
+Include the testVersion by adding a config rule in your `phpcs.xml`. Examples:
+
+```
+    <config name="testVersion" value="7.0"/> <!-- check for compatability with php 7.0 -->
+    <config name="testVersion" value="7.1-"/> <!-- check for 7.1 and higher -->
+    <config name="testVersion" value="7.0-7.2"/> <!-- check within range 7.0 to 7.2 -->
+```
+
+Look here for more information: https://github.com/PHPCompatibility/PHPCompatibility#using-a-custom-ruleset
+
 ### Usage
 
 Since you now have a `phpcs.xml` file in the root of your project, you can run the default phpcs-command: `vendor/bin/phpcs`.

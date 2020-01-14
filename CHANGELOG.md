@@ -8,7 +8,6 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ### Added
 - Sniff to disallow spaces when passing variables as reference
 
-### Updated
 ## [14.0.1] - 2019-12-18
 ### Fixed
 - Fixed wrongly typed sniff names

@@ -4,7 +4,7 @@
     "type": "phpcodesniffer-standard",
     "license": "proprietary",
     "require": {
-        "php": "^7.2",
+        "php": "~7.2.0 || ~7.3.0 || ~7.4.0",
         "dealerdirect/phpcodesniffer-composer-installer": "^0.5",
         "object-calisthenics/phpcs-calisthenics-rules": "^3.5",
         "slevomat/coding-standard": "^6.0",

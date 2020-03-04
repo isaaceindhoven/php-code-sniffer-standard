@@ -22,7 +22,7 @@ class CodeSnifferResults
     }
 
     /**
-     * @return array
+     * @return mixed[]
      */
     public function getAllErrorMessages(): array
     {

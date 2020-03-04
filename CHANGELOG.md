@@ -7,6 +7,12 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ## [Unreleased]
 ### Fixed
 - Fix typo in changelog of version 14.0.0: 'Drop support for PHP 7.2' should be 'Drop support for PHP 7.1'
+- Explicitly state the supported minor PHP-versions in composer.json
+- Fix autoload-dev (this caused problems while running the tests)
+- Configure the supported PHP versions of this package in phpcs.xml
+
+### Changed
+- Update PHPStan (dev-requirement of this package)
 
 ## [15.0.0] - 2020-01-14
 ### Added

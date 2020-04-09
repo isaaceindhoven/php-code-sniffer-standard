@@ -8,6 +8,9 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ### Added
 - Add instructions on ignoring sniff violations
 
+### Changed
+- Allow imports to exceed the line length limit
+
 ## [15.1.0] - 2020-03-04
 ### Changed
 - Update dealerdirect/phpcodesniffer-composer-installer to version 0.6

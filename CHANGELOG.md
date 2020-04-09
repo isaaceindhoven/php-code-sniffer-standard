@@ -7,6 +7,8 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ## [X.Y.Z] - TBD
 ### Added
 - Add sniff to require use statements to be placed on a single line.
+### Changed
+- Rename 'ISAAC PHP_CodeSniffer' to 'ISAAC PHP_CodeSniffer Standard'
 
 ## [16.0.0] - 2020-04-09
 ### Added

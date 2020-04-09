@@ -1,4 +1,4 @@
-ISAAC PHPCS
+ISAAC PHP_CodeSniffer Standard
 ===========
 
 Extending the default [PHP_CodeSniffer](https://github.com/squizlabs/PHP_CodeSniffer) with ISAAC rules
@@ -10,13 +10,13 @@ Extending the default [PHP_CodeSniffer](https://github.com/squizlabs/PHP_CodeSni
 First, add the path of this repo to the composer file in your project:
 
 ```
-composer config repositories.isaac-php-code-sniffer vcs git@gitlab.isaac.local:php-module/isaac-php-code-sniffer.git
+composer config repositories.isaac-php-code-sniffer-standard vcs git@gitlab.isaac.local:php-module/isaac-php-code-sniffer-standard.git
 ```
 
 Now require the package:
 
 ```
-composer require --dev isaac/php-code-sniffer
+composer require --dev isaac/php-code-sniffer-standard
 ```
 
 ### Setup

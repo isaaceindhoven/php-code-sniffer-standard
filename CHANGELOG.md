@@ -4,6 +4,15 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [16.0.0] - 2020-04-09
+### Added
+- Add instructions on ignoring sniff violations
+
+### Changed
+- Allow imports to exceed the line length limit
+- Disallow group use declarations
+- Update PHPUnit dev-dependency to version 9.1
+
 ## [15.1.0] - 2020-03-04
 ### Changed
 - Update dealerdirect/phpcodesniffer-composer-installer to version 0.6

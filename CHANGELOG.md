@@ -10,6 +10,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ### Changed
 - Allow imports to exceed the line length limit
+- Disallow group use declarations
 
 ## [15.1.0] - 2020-03-04
 ### Changed

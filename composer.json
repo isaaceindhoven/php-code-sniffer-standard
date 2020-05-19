@@ -1,6 +1,6 @@
 {
     "name": "isaac/php-code-sniffer-standard",
-    "replace": {
+    "conflict": {
         "isaac/php-code-sniffer": "*"
     },
     "description": "ISAAC PHP_CodeSniffer Standard",

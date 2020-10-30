@@ -4,8 +4,15 @@
         "isaac/php-code-sniffer": "*"
     },
     "description": "ISAAC PHP_CodeSniffer Standard",
+    "authors": [
+        {
+            "name": "ISAAC",
+            "email": "info@isaac.nl",
+            "homepage": "https://www.isaac.nl"
+        }
+    ],
     "type": "phpcodesniffer-standard",
-    "license": "proprietary",
+    "license": "MIT",
     "require": {
         "php": "~7.2.0 || ~7.3.0 || ~7.4.0",
         "dealerdirect/phpcodesniffer-composer-installer": "^0.7",
@@ -32,5 +39,8 @@
         "files": [
             "vendor/squizlabs/php_codesniffer/autoload.php"
         ]
+    },
+    "support": {
+        "issues": "https://github.com/isaaceindhoven/php-code-sniffer-standard"
     }
 }

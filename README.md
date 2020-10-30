@@ -7,13 +7,7 @@ Extending the default [PHP_CodeSniffer](https://github.com/squizlabs/PHP_CodeSni
 
 ### Installation
 
-First, add the path of this repo to the composer file in your project:
-
-```
-composer config repositories.isaac-php-code-sniffer-standard vcs git@gitlab.isaac.local:php-module/isaac-php-code-sniffer-standard.git
-```
-
-Now require the package:
+Require the package:
 
 ```
 composer require --dev isaac/php-code-sniffer-standard

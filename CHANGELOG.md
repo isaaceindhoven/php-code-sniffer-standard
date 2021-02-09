@@ -6,6 +6,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 ### Added
+- Add sniff to disallow spaces surrounding an object operator.
 - Add PHP 8.0 support
 
 ## [19.0.0] - 2020-10-30

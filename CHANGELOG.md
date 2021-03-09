@@ -4,7 +4,7 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
-## [Unreleased]
+## [21.0.0]
 ### Removed
 - Removed duplicate class constant visibility check (removed  SlevomatCodingStandard.Classes.ClassConstantVisibility in favor of PSR12.Properties.ConstantVisibility which is part of the PSR12 ruleset)
 

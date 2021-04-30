@@ -45,6 +45,12 @@
             <property name="absoluteComplexity" value="20"/>
         </properties>
     </rule>
+    <rule ref="Generic.Metrics.NestingLevel">
+        <properties>
+            <property name="nestingLevel" value="3"/>
+            <property name="absoluteNestingLevel" value="3"/>
+        </properties>
+    </rule>
     <rule ref="Generic.PHP.ForbiddenFunctions">
         <properties>
             <property name="forbiddenFunctions" type="array" value="empty=>null,isset=>null,is_null=>null"/>
@@ -63,11 +69,6 @@
     <rule ref="ObjectCalisthenics.Files.FunctionLength">
         <properties>
             <property name="maxLength" value="25"/>
-        </properties>
-    </rule>
-    <rule ref="ObjectCalisthenics.Metrics.MaxNestingLevel">
-        <properties>
-            <property name="maxNestingLevel" value="3"/>
         </properties>
     </rule>
     <rule ref="ObjectCalisthenics.Metrics.MethodPerClassLimit">

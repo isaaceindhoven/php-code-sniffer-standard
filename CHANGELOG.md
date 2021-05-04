@@ -5,6 +5,9 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
 ## [Unreleased]
+### Changes
+- Update slevomat/coding-standard from v6 to v7
+- Update squizlabs/php_codesniffer from v3.5 to v3.6
 
 ### Removed
 - Removed explicit reference to ISAAC rules (the rules added by this packages are included automatically)

@@ -6,7 +6,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 ### Changed
-- Replace the deprecated `ObjectCalisthenics.Files.FunctionLength` rule by `SlevomatCodingStandard.Files.FunctionLength`
+- Replace the deprecated `ObjectCalisthenics.Files.FunctionLength` rule by `SlevomatCodingStandard.Functions.FunctionLength`
 - Replace the deprecated `ObjectCalisthenics.Metrics.MaxNestingLevel` rule by `Generic.Metrics.NestingLevel`
 - Update slevomat/coding-standard from v6 to v7
 - Update squizlabs/php_codesniffer from v3.5 to v3.6

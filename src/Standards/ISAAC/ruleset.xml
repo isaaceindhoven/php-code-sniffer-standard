@@ -85,7 +85,7 @@
     <rule ref="SlevomatCodingStandard.Classes.SuperfluousInterfaceNaming"/>
     <rule ref="SlevomatCodingStandard.ControlStructures.DisallowYodaComparison"/>
     <rule ref="SlevomatCodingStandard.ControlStructures.RequireShortTernaryOperator"/>
-    <rule ref="SlevomatCodingStandard.Files.FunctionLength">
+    <rule ref="SlevomatCodingStandard.Functions.FunctionLength">
         <properties>
             <property name="maxLinesLength" value="25"/>
         </properties>

@@ -60,17 +60,11 @@
     <rule ref="MySource.PHP.GetRequestData"/>
     <rule ref="PSR12.Operators.OperatorSpacing"/>
 
-    <!-- This block should be ordered alphabetically -->
     <!-- ISAAC -->
-    <rule ref="ISAAC.ControlStructures.DisallowNullCoalesceOperator"/>
+    <!-- all src/Standards/ISAAC/Sniffs/*/*Sniff.php rules are included automatically -->
 
     <!-- This block should be ordered alphabetically -->
     <!-- 3rd party -->
-    <rule ref="ObjectCalisthenics.Files.FunctionLength">
-        <properties>
-            <property name="maxLength" value="25"/>
-        </properties>
-    </rule>
     <rule ref="ObjectCalisthenics.Metrics.MethodPerClassLimit">
         <properties>
             <property name="maxCount" value="10"/>
@@ -89,9 +83,13 @@
         </properties>
     </rule>
     <rule ref="SlevomatCodingStandard.Classes.SuperfluousInterfaceNaming"/>
-    <rule ref="SlevomatCodingStandard.Classes.UnusedPrivateElements"/>
     <rule ref="SlevomatCodingStandard.ControlStructures.DisallowYodaComparison"/>
     <rule ref="SlevomatCodingStandard.ControlStructures.RequireShortTernaryOperator"/>
+    <rule ref="SlevomatCodingStandard.Files.FunctionLength">
+        <properties>
+            <property name="maxLinesLength" value="25"/>
+        </properties>
+    </rule>
     <rule ref="SlevomatCodingStandard.Files.LineLength">
         <properties>
             <property name="lineLengthLimit" value="120"/>
@@ -124,7 +122,7 @@
     <rule ref="SlevomatCodingStandard.PHP.TypeCast"/>
     <rule ref="SlevomatCodingStandard.TypeHints.DeclareStrictTypes">
         <properties>
-            <property name="newlinesCountBetweenOpenTagAndDeclare" value="2"/>
+            <property name="linesCountBeforeDeclare" value="1"/>
             <property name="spacesCountAroundEqualsSign" value="0"/>
         </properties>
     </rule>

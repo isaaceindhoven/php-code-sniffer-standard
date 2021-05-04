@@ -59,11 +59,6 @@
 
     <!-- This block should be ordered alphabetically -->
     <!-- 3rd party -->
-    <rule ref="ObjectCalisthenics.Files.FunctionLength">
-        <properties>
-            <property name="maxLength" value="25"/>
-        </properties>
-    </rule>
     <rule ref="ObjectCalisthenics.Metrics.MaxNestingLevel">
         <properties>
             <property name="maxNestingLevel" value="3"/>
@@ -89,6 +84,11 @@
     <rule ref="SlevomatCodingStandard.Classes.SuperfluousInterfaceNaming"/>
     <rule ref="SlevomatCodingStandard.ControlStructures.DisallowYodaComparison"/>
     <rule ref="SlevomatCodingStandard.ControlStructures.RequireShortTernaryOperator"/>
+    <rule ref="SlevomatCodingStandard.Files.FunctionLength">
+        <properties>
+            <property name="maxLinesLength" value="25"/>
+        </properties>
+    </rule>
     <rule ref="SlevomatCodingStandard.Files.LineLength">
         <properties>
             <property name="lineLengthLimit" value="120"/>

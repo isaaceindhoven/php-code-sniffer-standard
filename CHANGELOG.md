@@ -8,6 +8,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ### Changes
 - Update slevomat/coding-standard from v6 to v7
 - Update squizlabs/php_codesniffer from v3.5 to v3.6
+- Replace the deprecated `ObjectCalisthenics.Files.FunctionLength` rule by `SlevomatCodingStandard.Files.FunctionLength`
 
 ### Removed
 - Removed explicit reference to ISAAC rules (the rules added by this packages are included automatically)

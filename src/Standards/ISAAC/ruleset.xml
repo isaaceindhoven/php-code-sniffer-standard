@@ -54,9 +54,8 @@
     <rule ref="MySource.PHP.GetRequestData"/>
     <rule ref="PSR12.Operators.OperatorSpacing"/>
 
-    <!-- This block should be ordered alphabetically -->
     <!-- ISAAC -->
-    <rule ref="ISAAC.ControlStructures.DisallowNullCoalesceOperator"/>
+    <!-- all src/Standards/ISAAC/Sniffs/*/*Sniff.php rules are included automatically -->
 
     <!-- This block should be ordered alphabetically -->
     <!-- 3rd party -->

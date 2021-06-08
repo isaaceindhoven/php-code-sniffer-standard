@@ -7,6 +7,9 @@ namespace IsaacCodingStandard\Tests;
 use PHP_CodeSniffer\Exceptions\DeepExitException;
 use PHPUnit\Framework\TestCase;
 
+use function define;
+use function defined;
+
 class BaseTestCase extends TestCase
 {
     /** @var CodeSnifferRunner $codeSnifferRunner */

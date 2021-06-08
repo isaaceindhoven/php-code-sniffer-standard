@@ -19,7 +19,9 @@ class BaseTestCase extends TestCase
     public function setUp(): void
     {
         parent::setUp();
-
+        if (defined('PHP_CODESNIFFER_CBF') === false) {
+            define('PHP_CODESNIFFER_CBF', false);
+        }
         $this->codeSnifferRunner = new CodeSnifferRunner();
     }
 }

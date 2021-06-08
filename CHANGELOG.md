@@ -14,6 +14,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - Update squizlabs/php_codesniffer from v3.5 to v3.6
 
 ### Removed
+- Removed object-calisthenics/phpcs-calisthenics-rules
 - Removed explicit reference to ISAAC rules (the rules added by this packages are included automatically)
 
 ## [21.0.0] - 2021-03-09

@@ -13,6 +13,7 @@ use function defined;
 class BaseTestCase extends TestCase
 {
     /** @var CodeSnifferRunner $codeSnifferRunner */
+    //phpcs:ignore SlevomatCodingStandard.TypeHints.PropertyTypeHint.MissingNativeTypeHint
     protected $codeSnifferRunner;
 
     /**

@@ -18,12 +18,15 @@ use function sprintf;
 class CodeSnifferRunner
 {
     /** @var Runner $codeSniffer */
+    //phpcs:ignore SlevomatCodingStandard.TypeHints.PropertyTypeHint.MissingNativeTypeHint
     protected $codeSniffer;
 
     /** @var string $sniff */
+    //phpcs:ignore SlevomatCodingStandard.TypeHints.PropertyTypeHint.MissingNativeTypeHint
     protected $sniff;
 
     /** @var string $path */
+    //phpcs:ignore SlevomatCodingStandard.TypeHints.PropertyTypeHint.MissingNativeTypeHint
     protected $path;
 
     /**

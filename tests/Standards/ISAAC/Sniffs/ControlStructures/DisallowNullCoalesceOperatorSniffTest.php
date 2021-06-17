@@ -21,7 +21,7 @@ class DisallowNullCoalesceOperatorSniffTest extends BaseTestCase
         parent::setUp();
 
         $this->codeSnifferRunner
-            ->setSniff('ISAAC.ControlStructures.DisallowNullCoalesceOperatorSniff')
+            ->setSniff('ISAAC.ControlStructures.DisallowNullCoalesceOperator')
             ->setFolder(sprintf('%s/Assets/', __DIR__));
     }
 

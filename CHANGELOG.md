@@ -4,7 +4,7 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
-## [Unreleased]
+## [22.0.0] - 2021-06-17
 ### Changed
 - Replace the deprecated `ObjectCalisthenics.Files.FunctionLength` rule by `SlevomatCodingStandard.Functions.FunctionLength`
 - Replace the deprecated `ObjectCalisthenics.Metrics.MaxNestingLevel` rule by `Generic.Metrics.NestingLevel`
@@ -12,6 +12,9 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - Replace the deprecated `ObjectCalisthenics.Metrics.MethodPerClassLimit` rule by `ISAAC.Classes.MethodPerClassLimit`
 - Update slevomat/coding-standard from v6 to v7
 - Update squizlabs/php_codesniffer from v3.5 to v3.6
+
+### Fixed
+- Fixed the test runner by only executing the tested sniff
 
 ### Removed
 - Removed object-calisthenics/phpcs-calisthenics-rules

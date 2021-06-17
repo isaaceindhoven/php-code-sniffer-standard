@@ -15,6 +15,11 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ### Fixed
 - Fixed the test runner by only executing the tested sniff
+- Fixed 'constant not found' PHPStan errors
+- Resolve phpcs sniff violations in test classes when running phpcs using PHP 7.4 or 8.0
+- Resolve phpcs sniff violations in BaseTestCase class
+- Add .phpunit.result.cache to the .gitignore
+- Resolve phpunit error when using the --filter option
 
 ### Removed
 - Removed object-calisthenics/phpcs-calisthenics-rules

@@ -23,7 +23,7 @@ class MultipleLinesPerUseSniffTest extends BaseTestCase
         parent::setUp();
 
         $this->codeSnifferRunner
-            ->setSniff('ISAAC.Namespaces.MultipleLinesPerUseSniff')
+            ->setSniff('ISAAC.Namespaces.MultipleLinesPerUse')
             ->setFolder(sprintf('%s/Assets/', __DIR__));
     }
 

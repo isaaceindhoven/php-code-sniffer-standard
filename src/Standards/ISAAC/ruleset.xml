@@ -65,16 +65,6 @@
 
     <!-- This block should be ordered alphabetically -->
     <!-- 3rd party -->
-    <rule ref="ObjectCalisthenics.Metrics.MethodPerClassLimit">
-        <properties>
-            <property name="maxCount" value="10"/>
-        </properties>
-    </rule>
-    <rule ref="ObjectCalisthenics.Metrics.PropertyPerClassLimit">
-        <properties>
-            <property name="maxCount" value="10"/>
-        </properties>
-    </rule>
     <rule ref="SlevomatCodingStandard.Arrays.TrailingArrayComma"/>
     <rule ref="SlevomatCodingStandard.Classes.EmptyLinesAroundClassBraces">
         <properties>

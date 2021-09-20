@@ -2,5 +2,5 @@
   "classification": "library",
   "jiraKey": "ICOMP",
   "jiraComponent": "PHP",
-  "jiraSummaryPrefix": "php-code-sniffer-standard"
+  "jiraSummaryPrefix": "PHP_CodeSniffer Standard"
 }

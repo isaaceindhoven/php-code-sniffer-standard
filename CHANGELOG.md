@@ -5,6 +5,9 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
 ## [Unreleased]
+### Added
+- Add sniff to require nullable type for parameters with a default null value.
+`SlevomatCodingStandard.TypeHints.NullableTypeForNullDefaultValue`
 
 ## [23.0.0] - 2021-08-04
 ### Added

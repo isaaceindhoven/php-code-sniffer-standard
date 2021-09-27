@@ -117,6 +117,7 @@
         </properties>
     </rule>
     <rule ref="SlevomatCodingStandard.TypeHints.DisallowArrayTypeHintSyntax"/>
+    <rule ref="SlevomatCodingStandard.TypeHints.NullableTypeForNullDefaultValue"/>
     <rule ref="SlevomatCodingStandard.TypeHints.ReturnTypeHintSpacing"/>
     <rule ref="SlevomatCodingStandard.TypeHints.ParameterTypeHint.MissingAnyTypeHint"/>
     <rule ref="SlevomatCodingStandard.TypeHints.PropertyTypeHint.MissingAnyTypeHint"/>

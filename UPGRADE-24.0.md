@@ -19,5 +19,5 @@ After the upgrade, PHP_CodeSniffer may report new violations. You can automatica
 `phpcbf`:
 
 ```shell
-vendor/bin/phpcbf --sniffs=SlevomatCodingStandard.TypeHints.DisallowArrayTypeHintSyntax
+vendor/bin/phpcbf --sniffs=SlevomatCodingStandard.TypeHints.NullableTypeForNullDefaultValue
 ```

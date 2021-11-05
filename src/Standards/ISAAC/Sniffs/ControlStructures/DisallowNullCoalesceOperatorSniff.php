@@ -15,7 +15,7 @@ class DisallowNullCoalesceOperatorSniff implements Sniff
     public const ERROR_MESSAGE = 'Use of null coalesce operator is disallowed.';
 
     /**
-     * @return int[]
+     * @return array<int>
      */
     public function register(): array
     {

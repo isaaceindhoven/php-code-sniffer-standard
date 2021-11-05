@@ -46,7 +46,7 @@ class MethodPerClassLimitSniffTest extends BaseTestCase
         }
     }
 
-    /** @return mixed[][] */
+    /** @return array<array<mixed>> */
     public function goodDataProvider(): array
     {
         return [
@@ -57,7 +57,7 @@ class MethodPerClassLimitSniffTest extends BaseTestCase
         ];
     }
 
-    /** @return mixed[][] */
+    /** @return array<array<mixed>> */
     public function badDataProvider(): array
     {
         return [

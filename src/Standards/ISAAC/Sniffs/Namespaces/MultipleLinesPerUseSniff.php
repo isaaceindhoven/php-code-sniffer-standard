@@ -18,7 +18,7 @@ class MultipleLinesPerUseSniff implements Sniff
     public const ERROR_MESSAGE = 'Use statement "%s" should be placed on a single line.';
 
     /**
-     * @return int[]
+     * @return array<int>
      */
     public function register(): array
     {

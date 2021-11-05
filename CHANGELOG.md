@@ -4,7 +4,20 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
-## [Unreleased]
+## [25.0.0] - 2021-11-05
+### Added
+- Add GitHub Action
+- Add support for PHP 8.1
+
+### Changed
+- Upgrade PHPStan to version 1
+- Upgrade PHPUnit to version 9
+
+### Removed
+- Remove support for PHP 7.2
+
+### Fixed
+- Adhere to own coding standard and update PHP_CodeSniffer configuration to the latest standards
 
 ## [24.0.0] - 2021-10-19
 ### Added

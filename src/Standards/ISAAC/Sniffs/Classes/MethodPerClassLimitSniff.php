@@ -60,7 +60,7 @@ class MethodPerClassLimitSniff implements Sniff
     /**
      * @param File $phpcsFile
      * @param int $classPointer
-     * @return int[]
+     * @return array<int>
      */
     protected function getMethodPointers(File $phpcsFile, int $classPointer): array
     {

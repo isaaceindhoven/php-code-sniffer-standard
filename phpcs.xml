@@ -1,14 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<ruleset name="isaac-php-code-sniffer">
-    <!-- include root folder of project -->
-    <file>.</file>
-    <!-- exclude paths -->
-    <exclude-pattern>./vendor</exclude-pattern>
-    <!-- exlude tests assets -->
-    <exclude-pattern>/tests/*.inc</exclude-pattern>
-
-    <!-- include all rules in isaac ruleset -->
+<ruleset>
+    <file>src</file>
+    <file>tests</file>
     <rule ref="ISAAC"/>
 
-    <config name="testVersion" value="7.2-"/>
+    <config name="php_version" value="70300"/>
+    <config name="testVersion" value="7.3-8.1"/>
+
+    <arg name="extensions" value="php"/>
+    <arg name="cache"/>
 </ruleset>

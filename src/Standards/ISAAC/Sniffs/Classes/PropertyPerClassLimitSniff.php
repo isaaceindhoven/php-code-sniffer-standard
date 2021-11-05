@@ -60,7 +60,7 @@ class PropertyPerClassLimitSniff implements Sniff
     /**
      * @param File $phpcsFile
      * @param int $classPointer
-     * @return int[]
+     * @return array<int>
      */
     protected function getPropertyPointers(File $phpcsFile, int $classPointer): array
     {

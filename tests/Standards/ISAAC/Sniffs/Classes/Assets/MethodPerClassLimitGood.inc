@@ -68,7 +68,7 @@ class MaximumAmountOfMethods
      * @param mixed $x
      * @return mixed
      */
-    function method10($x)
+    public function method10($x)
     {
         return $x;
     }

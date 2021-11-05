@@ -9,7 +9,6 @@ jobs:
         runs-on: "ubuntu-latest"
 
         strategy:
-            fail-fast: true
             matrix:
                 php-version:
                 - "7.3"

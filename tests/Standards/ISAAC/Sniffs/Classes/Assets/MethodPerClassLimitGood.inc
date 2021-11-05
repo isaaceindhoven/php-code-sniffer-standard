@@ -33,7 +33,7 @@ class MaximumAmountOfMethods
         return $this->foo;
     }
 
-    /** @return int[] */
+    /** @return array<int> */
     public function method6(): array
     {
         return [1, 2, 3];
@@ -45,8 +45,7 @@ class MaximumAmountOfMethods
         return null;
     }
 
-    /** @return object */
-    protected function method8()
+    protected function method8(): object
     {
         return new class {
             public function getFoo(): string

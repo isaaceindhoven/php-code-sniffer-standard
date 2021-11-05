@@ -68,7 +68,6 @@ class MaximumAmountOfMethods
      * @param mixed $x
      * @return mixed
      */
-    //phpcs:ignore Squiz.Scope.MethodScope
     function method10($x)
     {
         return $x;

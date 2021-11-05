@@ -11,7 +11,6 @@ use function array_walk_recursive;
 class CodeSnifferResults
 {
     /** @var File $wrappedClass */
-    //phpcs:ignore SlevomatCodingStandard.TypeHints.PropertyTypeHint.MissingNativeTypeHint
     protected $wrappedClass;
 
     /**

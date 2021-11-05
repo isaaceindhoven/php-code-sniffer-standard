@@ -26,7 +26,6 @@ class PropertyPerClassLimitSniff implements Sniff
     public const ERROR_MESSAGE = '%s has too many properties: %d. Can be up to %d properties.';
 
     /** @var int */
-    //phpcs:ignore SlevomatCodingStandard.TypeHints.PropertyTypeHint.MissingNativeTypeHint
     public $maxPropertyCount = 10;
 
     /**

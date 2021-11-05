@@ -26,7 +26,6 @@ class MethodPerClassLimitSniff implements Sniff
     public const ERROR_MESSAGE = '%s has too many methods: %d. Can be up to %d methods.';
 
     /** @var int */
-    //phpcs:ignore SlevomatCodingStandard.TypeHints.PropertyTypeHint.MissingNativeTypeHint
     public $maxMethodCount = 10;
 
     /**

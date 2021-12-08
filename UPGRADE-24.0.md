@@ -1,7 +1,7 @@
 UPGRADE FROM 23.0 to 24.0
 =========================
 
-Version 24 adds a new sniff that requires a nullable type delcaration (added in PHP 7.1) for parameters with a default
+Version 24 adds a new sniff that requires a nullable type declaration (added in PHP 7.1) for parameters with a default
 value of `null`.
 
 To upgrade `isaac/php-code-sniffer-standard` in your project, the following steps are required.

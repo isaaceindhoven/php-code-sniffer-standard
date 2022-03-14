@@ -7,6 +7,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ## [Unreleased]
 ### Removed
 - Remove explicit inclusion of the `PSR12.Operators.OperatorSpacing` rule
+- Remove explicit inclusion of the `Generic.Files.LineEndings` rule
 - Remove explicit inclusion of the `Squiz.WhiteSpace.SuperfluousWhitespace` rule
 
 ## [25.1.0] - 2021-12-08

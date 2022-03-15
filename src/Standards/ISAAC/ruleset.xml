@@ -51,7 +51,11 @@
     </rule>
     <rule ref="Generic.PHP.ForbiddenFunctions">
         <properties>
-            <property name="forbiddenFunctions" type="array" value="empty=>null,isset=>null,is_null=>null"/>
+            <property name="forbiddenFunctions" type="array">
+                <element key="empty" value="null"/>
+                <element key="isset" value="null"/>
+                <element key="is_null" value="null"/>
+            </property>
         </properties>
     </rule>
     <rule ref="Generic.PHP.Syntax"/>

@@ -6,6 +6,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 ### Changed
+- Change the php version in composer.json into an easier to maintain form
 - Change the `Generic.PHP.ForbiddenFunctions` array value into a more readable and expandable form
 
 ### Removed

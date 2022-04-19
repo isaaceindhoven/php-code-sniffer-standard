@@ -49,6 +49,7 @@
             <property name="absoluteNestingLevel" value="3"/>
         </properties>
     </rule>
+    <rule ref="Generic.PHP.BacktickOperator"/>
     <rule ref="Generic.PHP.ForbiddenFunctions">
         <properties>
             <property name="forbiddenFunctions" type="array">
@@ -59,7 +60,6 @@
         </properties>
     </rule>
     <rule ref="Generic.PHP.Syntax"/>
-    <rule ref="MySource.PHP.GetRequestData"/>
 
     <!-- ISAAC -->
     <!-- all src/Standards/ISAAC/Sniffs/*/*Sniff.php rules are included automatically -->
@@ -124,7 +124,13 @@
     <rule ref="SlevomatCodingStandard.TypeHints.PropertyTypeHint.MissingAnyTypeHint"/>
     <rule ref="SlevomatCodingStandard.TypeHints.PropertyTypeHint.MissingNativeTypeHint"/>
     <rule ref="SlevomatCodingStandard.TypeHints.ReturnTypeHint.MissingAnyTypeHint"/>
+    <rule ref="SlevomatCodingStandard.Variables.UnusedVariable">
+        <properties>
+            <property name="ignoreUnusedValuesWhenOnlyKeysAreUsedInForeach" value="true"/>
+        </properties>
+    </rule>
     <rule ref="SlevomatCodingStandard.TypeHints.UselessConstantTypeHint"/>
+    <rule ref="SlevomatCodingStandard.Variables.DisallowSuperGlobalVariable"/>
     <rule ref="Squiz.NamingConventions.ValidVariableName.MemberNotCamelCaps"/>
     <rule ref="Squiz.NamingConventions.ValidVariableName.NotCamelCaps"/>
     <rule ref="Squiz.Strings.DoubleQuoteUsage.ContainsVar"/>

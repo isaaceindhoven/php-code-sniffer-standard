@@ -9,6 +9,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - Add `SlevomatCodingStandard.Variables.UnusedVariable` rule
 
 ### Changed
+- Disallow all superglobals by replacing the `MySource.PHP.GetRequestData` rule by the more complete `SlevomatCodingStandard.Variables.DisallowSuperGlobalVariable` rule
 - Change the `Generic.PHP.ForbiddenFunctions` array value into a more readable and expandable form
 
 ### Removed

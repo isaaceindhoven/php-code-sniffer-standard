@@ -49,6 +49,7 @@
             <property name="absoluteNestingLevel" value="3"/>
         </properties>
     </rule>
+    <rule ref="Generic.PHP.BacktickOperator"/>
     <rule ref="Generic.PHP.ForbiddenFunctions">
         <properties>
             <property name="forbiddenFunctions" type="array">

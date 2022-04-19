@@ -27,7 +27,6 @@
     <rule ref="Generic.CodeAnalysis.UnnecessaryFinalModifier"/>
     <rule ref="Generic.Commenting.Fixme"/>
     <rule ref="Generic.Commenting.Todo"/>
-    <rule ref="Generic.Files.LineEndings"/>
     <rule ref="Generic.Formatting.MultipleStatementAlignment">
         <properties>
             <property name="maxPadding" value="1" />
@@ -50,14 +49,17 @@
             <property name="absoluteNestingLevel" value="3"/>
         </properties>
     </rule>
+    <rule ref="Generic.PHP.BacktickOperator"/>
     <rule ref="Generic.PHP.ForbiddenFunctions">
         <properties>
-            <property name="forbiddenFunctions" type="array" value="empty=>null,isset=>null,is_null=>null"/>
+            <property name="forbiddenFunctions" type="array">
+                <element key="empty" value="null"/>
+                <element key="isset" value="null"/>
+                <element key="is_null" value="null"/>
+            </property>
         </properties>
     </rule>
     <rule ref="Generic.PHP.Syntax"/>
-    <rule ref="MySource.PHP.GetRequestData"/>
-    <rule ref="PSR12.Operators.OperatorSpacing"/>
 
     <!-- ISAAC -->
     <!-- all src/Standards/ISAAC/Sniffs/*/*Sniff.php rules are included automatically -->
@@ -122,7 +124,13 @@
     <rule ref="SlevomatCodingStandard.TypeHints.PropertyTypeHint.MissingAnyTypeHint"/>
     <rule ref="SlevomatCodingStandard.TypeHints.PropertyTypeHint.MissingNativeTypeHint"/>
     <rule ref="SlevomatCodingStandard.TypeHints.ReturnTypeHint.MissingAnyTypeHint"/>
+    <rule ref="SlevomatCodingStandard.Variables.UnusedVariable">
+        <properties>
+            <property name="ignoreUnusedValuesWhenOnlyKeysAreUsedInForeach" value="true"/>
+        </properties>
+    </rule>
     <rule ref="SlevomatCodingStandard.TypeHints.UselessConstantTypeHint"/>
+    <rule ref="SlevomatCodingStandard.Variables.DisallowSuperGlobalVariable"/>
     <rule ref="Squiz.NamingConventions.ValidVariableName.MemberNotCamelCaps"/>
     <rule ref="Squiz.NamingConventions.ValidVariableName.NotCamelCaps"/>
     <rule ref="Squiz.Strings.DoubleQuoteUsage.ContainsVar"/>
@@ -137,11 +145,6 @@
     <rule ref="Squiz.WhiteSpace.ObjectOperatorSpacing">
         <properties>
             <property name="ignoreNewlines" value="true" />
-        </properties>
-    </rule>
-    <rule ref="Squiz.WhiteSpace.SuperfluousWhitespace">
-        <properties>
-            <property name="ignoreBlankLines" value="false"/>
         </properties>
     </rule>
 </ruleset>

@@ -4,6 +4,20 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [26.0.0] - 2022-04-19
+### Added
+- Add `SlevomatCodingStandard.Variables.UnusedVariable` rule
+- Add the `Generic.PHP.BacktickOperator` rule
+- Add `ISAAC.ControlStructures.DisallowGotoOperator` rule
+
+### Changed
+- Disallow all superglobals by replacing the `MySource.PHP.GetRequestData` rule by the more complete `SlevomatCodingStandard.Variables.DisallowSuperGlobalVariable` rule
+- Change the `Generic.PHP.ForbiddenFunctions` array value into a more readable and expandable form
+
+### Removed
+- Remove explicit inclusion of the `PSR12.Operators.OperatorSpacing` rule
+- Remove explicit inclusion of the `Generic.Files.LineEndings` rule
+- Remove explicit inclusion of the `Squiz.WhiteSpace.SuperfluousWhitespace` rule
 
 ## [25.1.0] - 2021-12-08
 ### Removed

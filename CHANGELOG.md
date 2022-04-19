@@ -8,6 +8,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ### Added
 - Add `SlevomatCodingStandard.Variables.UnusedVariable` rule
 - Add the `Generic.PHP.BacktickOperator` rule
+- Add `ISAAC.ControlStructures.DisallowGotoOperator` rule
 
 ### Changed
 - Disallow all superglobals by replacing the `MySource.PHP.GetRequestData` rule by the more complete `SlevomatCodingStandard.Variables.DisallowSuperGlobalVariable` rule

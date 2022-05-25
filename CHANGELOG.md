@@ -9,6 +9,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - Add `shell_exec()` to forbidden functions
 - Add `exec()` to forbidden functions
 - Add `passthru()` to forbidden functions
+- Add `system()` to forbidden functions
 
 ## [26.0.0] - 2022-04-19
 ### Added

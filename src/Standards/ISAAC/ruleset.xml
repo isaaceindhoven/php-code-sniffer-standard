@@ -59,6 +59,7 @@
                 <element key="shell_exec" value="null"/>
                 <element key="exec" value="null"/>
                 <element key="passthru" value="null" />
+                <element key="system" value="null" />
             </property>
         </properties>
     </rule>

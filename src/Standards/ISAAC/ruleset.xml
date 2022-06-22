@@ -57,6 +57,8 @@
                 <element key="isset" value="null"/>
                 <element key="is_null" value="null"/>
                 <element key="eval" value="null"/>
+                <element key="serialize" value="json_encode"/>
+                <element key="unserialize" value="json_decode"/>
                 <element key="shell_exec" value="null"/>
                 <element key="exec" value="null"/>
                 <element key="passthru" value="null" />

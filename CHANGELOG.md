@@ -7,6 +7,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ## [Unreleased]
 ### Added
 - Add `eval()` to forbidden functions
+- Add `serialize()` and `unzerialize()` to forbidden functions
 - Add `shell_exec()` to forbidden functions
 - Add `exec()` to forbidden functions
 - Add `passthru()` to forbidden functions

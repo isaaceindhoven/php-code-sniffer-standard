@@ -7,6 +7,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ## [Unreleased]
 ### Added
 - Add support for Slevomat Coding Standard v8
+- Add allow-plugin config to composer.json 
 
 ## [28.0.0] - 2022-06-22
 ### Added

@@ -10,6 +10,11 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - Add `exec()` to forbidden functions
 - Add `passthru()` to forbidden functions
 - Add `system()` to forbidden functions
+- Add `assert()` to forbidden functions
+
+## [27.0.0] - 2022-05-17
+### Added
+- Add the `SlevomatCodingStandard.Classes.ModernClassNameReference` rule
 
 ## [26.0.0] - 2022-04-19
 ### Added

@@ -60,6 +60,7 @@
                 <element key="exec" value="null"/>
                 <element key="passthru" value="null" />
                 <element key="system" value="null" />
+                <element key="assert" value="null"/>
             </property>
         </properties>
     </rule>
@@ -77,6 +78,7 @@
             <property name="linesCountBeforeClosingBrace" value="0"/>
         </properties>
     </rule>
+    <rule ref="SlevomatCodingStandard.Classes.ModernClassNameReference"/>
     <rule ref="SlevomatCodingStandard.Classes.SuperfluousInterfaceNaming"/>
     <rule ref="SlevomatCodingStandard.ControlStructures.DisallowYodaComparison"/>
     <rule ref="SlevomatCodingStandard.ControlStructures.RequireShortTernaryOperator"/>

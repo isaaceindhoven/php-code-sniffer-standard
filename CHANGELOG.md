@@ -4,6 +4,16 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [28.0.0] - 2022-06-22
+### Added
+- Add `eval()` to forbidden functions
+- Add `serialize()` and `unzerialize()` to forbidden functions
+- Add `shell_exec()` to forbidden functions
+- Add `exec()` to forbidden functions
+- Add `passthru()` to forbidden functions
+- Add `system()` to forbidden functions
+- Add `assert()` to forbidden functions
+
 ## [27.0.0] - 2022-05-17
 ### Added
 - Add the `SlevomatCodingStandard.Classes.ModernClassNameReference` rule

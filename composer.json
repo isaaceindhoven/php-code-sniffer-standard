@@ -41,5 +41,11 @@
     },
     "support": {
         "issues": "https://github.com/isaaceindhoven/php-code-sniffer-standard"
+    },
+    "config": {
+        "allow-plugins": {
+            "dealerdirect/phpcodesniffer-composer-installer": true,
+            "phpstan/extension-installer": true
+        }
     }
 }

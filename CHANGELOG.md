@@ -23,37 +23,37 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [28.1.0] - 2022-06-22
 ### Added
-- Add support for Slevomat Coding Standard v8
-- Add allow-plugin config to composer.json 
+- [38](https://github.com/isaaceindhoven/php-code-sniffer-standard/pull/38): Add support for Slevomat Coding Standard v8
+- [37](https://github.com/isaaceindhoven/php-code-sniffer-standard/pull/37): Add allow-plugin config to composer.json 
 
 ## [28.0.0] - 2022-06-22
 ### Added
-- Add `eval()` to forbidden functions
-- Add `serialize()` and `unzerialize()` to forbidden functions
-- Add `shell_exec()` to forbidden functions
-- Add `exec()` to forbidden functions
-- Add `passthru()` to forbidden functions
-- Add `system()` to forbidden functions
-- Add `assert()` to forbidden functions
+- [36](https://github.com/isaaceindhoven/php-code-sniffer-standard/pull/36): Add `assert()` to forbidden functions
+- [35](https://github.com/isaaceindhoven/php-code-sniffer-standard/pull/35): Add `exec()` to forbidden functions
+- [35](https://github.com/isaaceindhoven/php-code-sniffer-standard/pull/35): Add `passthru()` to forbidden functions
+- [35](https://github.com/isaaceindhoven/php-code-sniffer-standard/pull/35): Add `shell_exec()` to forbidden functions
+- [35](https://github.com/isaaceindhoven/php-code-sniffer-standard/pull/35): Add `system()` to forbidden functions
+- [34](https://github.com/isaaceindhoven/php-code-sniffer-standard/pull/34): Add `eval()` to forbidden functions
+- [33](https://github.com/isaaceindhoven/php-code-sniffer-standard/pull/33): Add `serialize()` and `unzerialize()` to forbidden functions
 
 ## [27.0.0] - 2022-05-17
 ### Added
-- Add the `SlevomatCodingStandard.Classes.ModernClassNameReference` rule
+- [32](https://github.com/isaaceindhoven/php-code-sniffer-standard/pull/32): Add the `SlevomatCodingStandard.Classes.ModernClassNameReference` rule
 
 ## [26.0.0] - 2022-04-19
 ### Added
-- Add `SlevomatCodingStandard.Variables.UnusedVariable` rule
-- Add the `Generic.PHP.BacktickOperator` rule
-- Add `ISAAC.ControlStructures.DisallowGotoOperator` rule
+- [29](https://github.com/isaaceindhoven/php-code-sniffer-standard/pull/29): Add `ISAAC.ControlStructures.DisallowGotoOperator` rule
+- [28](https://github.com/isaaceindhoven/php-code-sniffer-standard/pull/28): Add the `Generic.PHP.BacktickOperator` rule
+- [24](https://github.com/isaaceindhoven/php-code-sniffer-standard/pull/24): Add `SlevomatCodingStandard.Variables.UnusedVariable` rule
 
 ### Changed
-- Disallow all superglobals by replacing the `MySource.PHP.GetRequestData` rule by the more complete `SlevomatCodingStandard.Variables.DisallowSuperGlobalVariable` rule
-- Change the `Generic.PHP.ForbiddenFunctions` array value into a more readable and expandable form
+- [30](https://github.com/isaaceindhoven/php-code-sniffer-standard/pull/30): Change the `Generic.PHP.ForbiddenFunctions` array value into a more readable and expandable form
+- [25](https://github.com/isaaceindhoven/php-code-sniffer-standard/pull/25): Disallow all superglobals by replacing the `MySource.PHP.GetRequestData` rule by the more complete `SlevomatCodingStandard.Variables.DisallowSuperGlobalVariable` rule
 
 ### Removed
-- Remove explicit inclusion of the `PSR12.Operators.OperatorSpacing` rule
-- Remove explicit inclusion of the `Generic.Files.LineEndings` rule
-- Remove explicit inclusion of the `Squiz.WhiteSpace.SuperfluousWhitespace` rule
+- [27](https://github.com/isaaceindhoven/php-code-sniffer-standard/pull/27): Remove explicit inclusion of the `Squiz.WhiteSpace.SuperfluousWhitespace` rule
+- [26](https://github.com/isaaceindhoven/php-code-sniffer-standard/pull/26): Remove explicit inclusion of the `Generic.Files.LineEndings` rule
+- [23](https://github.com/isaaceindhoven/php-code-sniffer-standard/pull/23): Remove explicit inclusion of the `PSR12.Operators.OperatorSpacing` rule
 
 ## [25.1.0] - 2021-12-08
 ### Removed

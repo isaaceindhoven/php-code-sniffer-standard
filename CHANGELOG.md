@@ -20,6 +20,8 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## Fixed
 - Fixed tests by turning off the cache in tests
+### Changed
+- [39](https://github.com/isaaceindhoven/php-code-sniffer-standard/pull/39): Change 2022 changelog entries by adding link to respective PR
 
 ## [28.1.0] - 2022-06-22
 ### Added

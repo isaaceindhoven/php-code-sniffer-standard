@@ -71,6 +71,7 @@ class CodeSnifferRunner
     {
         $filePath = sprintf('%s%s', $this->path, $fileName);
         $this->codeSniffer->config->sniffs = [$this->sniff];
+        $this->codeSniffer->config->cache = false;
         $ruleset = new Ruleset($this->codeSniffer->config);
 
         $file = new File($filePath, $ruleset, $this->codeSniffer->config);

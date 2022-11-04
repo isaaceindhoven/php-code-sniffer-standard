@@ -4,6 +4,19 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [28.2.0] - 2022-11-04
+### Added
+- Support for PHP 8.2
+
+### Changed
+- Updated `ramsey/composer-install` to version 2
+
+### Removed
+- Support for PHP 7.3
+
+## Fixed
+- Fixed tests by turning off the cache in tests
+
 ## [28.1.0] - 2022-06-22
 ### Added
 - Add support for Slevomat Coding Standard v8

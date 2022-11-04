@@ -8,6 +8,9 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ### Added
 - Support for PHP 8.2
 
+### Changed
+- Updated `ramsey/composer-install` to version 2
+
 ### Removed
 - Support for PHP 7.3
 

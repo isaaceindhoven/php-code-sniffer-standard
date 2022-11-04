@@ -27,7 +27,7 @@ jobs:
         -   uses: "shivammathur/setup-php@v2"
             with:
                 php-version: "${{ matrix.php-version }}"
-        -   uses: "ramsey/composer-install@v1"
+        -   uses: "ramsey/composer-install@v2"
             with:
                 dependency-versions: "${{ matrix.composer-dependency-versions }}"
         -   run: "vendor/bin/phpcs"

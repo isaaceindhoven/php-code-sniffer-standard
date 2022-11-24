@@ -10,18 +10,17 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [28.2.0] - 2022-11-04
 ### Added
-- Support for PHP 8.2
+- [41](https://github.com/isaaceindhoven/php-code-sniffer-standard/pull/41) Support for PHP 8.2
 
 ### Changed
 - Updated `ramsey/composer-install` to version 2
+- [39](https://github.com/isaaceindhoven/php-code-sniffer-standard/pull/39): Change 2022 changelog entries by adding link to respective PR
 
 ### Removed
-- Support for PHP 7.3
+- [42](https://github.com/isaaceindhoven/php-code-sniffer-standard/pull/42) Support for PHP 7.3
 
 ## Fixed
 - Fixed tests by turning off the cache in tests
-### Changed
-- [39](https://github.com/isaaceindhoven/php-code-sniffer-standard/pull/39): Change 2022 changelog entries by adding link to respective PR
 
 ## [28.1.0] - 2022-06-22
 ### Added

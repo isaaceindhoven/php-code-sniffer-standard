@@ -3,6 +3,10 @@
     "conflict": {
         "isaac/php-code-sniffer": "*"
     },
+    "suggest": {
+        "iodigital-com/php-code-sniffer-standard": "Use iO PHP_CodeSniffer Standard instead."
+    },
+    "abandoned": "iodigital-com/php-code-sniffer-standard",
     "description": "ISAAC PHP_CodeSniffer Standard",
     "authors": [
         {

@@ -1,3 +1,8 @@
+Renamed and moved to iO CodeSniffer Standard
+===========
+This repository has been archived and renamed, moved to [iO PHP_CodeSniffer Standard](https://github.com/iodigital-com/php-code-sniffer-standard). Feature sniffs and changes will be processed in the iO repository.
+
+
 ISAAC PHP_CodeSniffer Standard
 ===========
 

@@ -1,7 +1,37 @@
-Renamed and moved to iO CodeSniffer Standard
+This package is moved to the iO namespace
 ===========
 This repository has been archived and renamed, moved to [iO PHP_CodeSniffer Standard](https://github.com/iodigital-com/php-code-sniffer-standard). Feature sniffs and changes will be processed in the iO repository.
 
+To replace `isaac/php-code-sniffer-standard` by `iodigital-com/php-code-sniffer-standard`, execute the following steps:
+
+1. Remove `isaac/php-code-sniffer-standard` from `composer.json`:
+   ```
+   composer remove --dev --no-update isaac/php-code-sniffer-standard
+   ```
+
+2. Install `iodigital-com/php-code-sniffer-standard`:
+   ```
+   composer require --dev iodigital-com/php-code-sniffer-standard
+   ```
+   Note: if you are not on the latest version, you might want to include a version constraint while requiring the new package.
+
+3. In your project's `phpcs.xml`, replace `<rule ref="ISAAC"/>` by `<rule ref="IO"/>`.
+
+4. Replace any references to specific ISAAC sniffs in `phpcs.xml` and PHP files by references to the IO sniffs. This can be done by searching for the sniff names in the entire project and replace them with the new sniff names:
+
+   | Search for                                           | Replace by                                        |
+   | ---------------------------------------------------- | ------------------------------------------------- |
+   | ISAAC.Classes.MethodPerClassLimit                    | IO.Classes.MethodPerClassLimit                    |
+   | ISAAC.Classes.PropertyPerClassLimit                  | IO.Classes.PropertyPerClassLimit                  |
+   | ISAAC.ControlStructures.DisallowGotoOperator         | IO.ControlStructures.DisallowGotoOperator         |
+   | ISAAC.ControlStructures.DisallowNullCoalesceOperator | IO.ControlStructures.DisallowNullCoalesceOperator |
+   | ISAAC.Namespaces.MultipleLinesPerUse                 | IO.Namespaces.MultipleLinesPerUse                 |
+
+
+Verify that PHP_CodeSniffer still works correctly by executing:
+```
+vendor/bin/phpcs
+```
 
 ISAAC PHP_CodeSniffer Standard
 ===========
